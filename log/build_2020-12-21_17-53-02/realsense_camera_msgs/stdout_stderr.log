@@ -1,0 +1,17 @@
+[  2%] Built target realsense_camera_msgs__cpp
+[ 13%] Built target realsense_camera_msgs__rosidl_generator_c
+CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:243: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend' failed
+CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/build.make:229: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/depend' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all' failed
+CMakeFiles/Makefile2:369: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/all' failed
+CMakeFiles/Makefile2:406: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[2]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+make[2]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+make: *** [all] Interrupt

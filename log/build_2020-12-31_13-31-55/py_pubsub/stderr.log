@@ -1,0 +1,5 @@
+  File "/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/csvtojpeg.py", line 8
+    cv2_img = np.genfromtxt((cwd + '/timed/' + file'), delimiter=',')
+                                                                 ^
+SyntaxError: invalid syntax
+

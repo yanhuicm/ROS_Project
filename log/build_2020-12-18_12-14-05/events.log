@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.004023] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.004394] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.083745] (-) TimerEvent: {}
+[0.186163] (-) TimerEvent: {}
+[0.287477] (-) TimerEvent: {}
+[0.388312] (-) TimerEvent: {}
+[0.489128] (-) TimerEvent: {}
+[0.590003] (-) TimerEvent: {}
+[0.690835] (-) TimerEvent: {}
+[0.791853] (-) TimerEvent: {}
+[0.892647] (-) TimerEvent: {}
+[0.993664] (-) TimerEvent: {}
+[1.094463] (-) TimerEvent: {}
+[1.195273] (-) TimerEvent: {}
+[1.296056] (-) TimerEvent: {}
+[1.397608] (-) TimerEvent: {}
+[1.498699] (-) TimerEvent: {}
+[1.599804] (-) TimerEvent: {}
+[1.700598] (-) TimerEvent: {}
+[1.801414] (-) TimerEvent: {}
+[1.902264] (-) TimerEvent: {}
+[2.003480] (-) TimerEvent: {}
+[2.124607] (-) TimerEvent: {}
+[2.225438] (-) TimerEvent: {}
+[2.331411] (-) TimerEvent: {}
+[2.375689] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/yan/camps_ws/build/py_pubsub/build', 'install', '--prefix', '/home/yan/camps_ws/install/py_pubsub', '--record', '/home/yan/camps_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/yan/camps_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'yan', 'UNITY_HAS_3D_SUPPORT': 'true', 'LC_TIME': 'id_ID.UTF-8', 'TEXTDOMAIN': 'im-config', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '2', 'OLDPWD': '/home/yan', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/yan', 'DESKTOP_SESSION': 'unity', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '5480', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'yan', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:30031', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'ROS_VERSION': '2', 'USERNAME': 'yan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/opt/ros/dashing/bin:/home/yan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '9f943208d4d546769faf01a821c7b3dc', 'SESSION_MANAGER': 'local/yan-desktop:@/tmp/.ICE-unix/5843,unix/yan-desktop:/tmp/.ICE-unix/5843', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c5e48dda_e9f3_4081_9f88_2a029624fbef', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LC_TELEPHONE': 'id_ID.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.95', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/dashing', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'LC_NAME': 'id_ID.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/yan/camps_ws/build/py_pubsub', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'LC_NUMERIC': 'id_ID.UTF-8', 'PYTHONPATH': '/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '5202'}, 'shell': False}
+[2.431738] (-) TimerEvent: {}
+[2.532789] (-) TimerEvent: {}
+[2.633944] (-) TimerEvent: {}
+[2.734716] (-) TimerEvent: {}
+[2.836111] (-) TimerEvent: {}
+[2.936963] (-) TimerEvent: {}
+[3.043123] (-) TimerEvent: {}
+[3.144346] (-) TimerEvent: {}
+[3.245719] (-) TimerEvent: {}
+[3.347085] (-) TimerEvent: {}
+[3.448261] (-) TimerEvent: {}
+[3.549909] (-) TimerEvent: {}
+[3.650993] (-) TimerEvent: {}
+[3.752225] (-) TimerEvent: {}
+[3.853411] (-) TimerEvent: {}
+[3.954369] (-) TimerEvent: {}
+[4.055495] (-) TimerEvent: {}
+[4.156679] (-) TimerEvent: {}
+[4.257443] (-) TimerEvent: {}
+[4.358644] (-) TimerEvent: {}
+[4.460664] (-) TimerEvent: {}
+[4.564615] (-) TimerEvent: {}
+[4.666021] (-) TimerEvent: {}
+[4.672417] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[4.678837] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[4.682991] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[4.684195] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[4.685282] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[4.686082] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[4.766230] (-) TimerEvent: {}
+[4.867367] (-) TimerEvent: {}
+[4.969991] (-) TimerEvent: {}
+[5.016223] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.024611] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.026496] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.027915] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.033195] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.036038] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[5.038038] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[5.044441] (py_pubsub) StdoutLine: {'line': b'copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub\n'}
+[5.051677] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc\n'}
+[5.052820] (py_pubsub) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (subscriber_member_function.py, line 35)\n'}
+[5.053547] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[5.055898] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.070186] (-) TimerEvent: {}
+[5.071277] (py_pubsub) StdoutLine: {'line': b"removing '/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[5.072213] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info\n'}
+[5.082202] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[5.170391] (-) TimerEvent: {}
+[5.211340] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.214252] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.217876] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/yan/camps_ws/build/py_pubsub/install.log'\n"}
+[5.270614] (-) TimerEvent: {}
+[5.352353] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.380908] (-) TimerEvent: {}
+[5.486513] (-) TimerEvent: {}
+[5.500637] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.510684] (-) EventReactorShutdown: {}

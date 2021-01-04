@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.000652] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000846] (realsense_camera_msgs) JobQueued: {'identifier': 'realsense_camera_msgs', 'dependencies': OrderedDict()}
+[0.000985] (realsense_ros2_camera) JobQueued: {'identifier': 'realsense_ros2_camera', 'dependencies': OrderedDict([('realsense_camera_msgs', '/home/yan/camps_ws/install/realsense_camera_msgs')])}
+[0.002460] (realsense_camera_msgs) JobStarted: {'identifier': 'realsense_camera_msgs'}
+[0.099570] (-) TimerEvent: {}
+[0.146599] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.199901] (-) TimerEvent: {}
+[0.215467] (realsense_camera_msgs) JobProgress: {'identifier': 'realsense_camera_msgs', 'progress': 'cmake'}
+[0.220961] (realsense_camera_msgs) JobProgress: {'identifier': 'realsense_camera_msgs', 'progress': 'build'}
+[0.225570] (realsense_camera_msgs) Command: {'cmd': ['/home/yan/.local/bin/cmake', '--build', '/home/yan/camps_ws/build/realsense_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/yan/camps_ws/build/realsense_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'yan'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'id_ID.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/yan'), ('OLDPWD', '/home/yan'), ('DESKTOP_SESSION', 'unity'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '5621'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/yan/camps_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yan'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:34019'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'yan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/yan/camps_ws/install/realsense_ros2_camera/bin:/opt/ros/dashing/bin:/home/yan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'f18e3bf74c2b45129eca817d5d634dbc'), ('SESSION_MANAGER', 'local/yan-desktop:@/tmp/.ICE-unix/6299,unix/yan-desktop:/tmp/.ICE-unix/6299'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18ed25c3_b483_4ff3_8cf5_4483324f21ca'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yan/camps_ws/build/realsense_camera_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing')]), 'shell': False}
+[0.300244] (-) TimerEvent: {}
+[0.401465] (-) TimerEvent: {}
+[0.502723] (-) TimerEvent: {}
+[0.604157] (-) TimerEvent: {}
+[0.705283] (-) TimerEvent: {}
+[0.806295] (-) TimerEvent: {}
+[0.907362] (-) TimerEvent: {}
+[1.008588] (-) TimerEvent: {}
+[1.109395] (-) TimerEvent: {}
+[1.210215] (-) TimerEvent: {}
+[1.311335] (-) TimerEvent: {}
+[1.340744] (realsense_camera_msgs) StdoutLine: {'line': b'[  2%] Built target realsense_camera_msgs__cpp\n'}
+[1.411534] (-) TimerEvent: {}
+[1.412811] (realsense_camera_msgs) StdoutLine: {'line': b'[ 13%] Built target realsense_camera_msgs__rosidl_generator_c\n'}
+[1.511727] (-) TimerEvent: {}
+[1.543460] (realsense_camera_msgs) StdoutLine: {'line': b'[ 24%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.576850] (realsense_camera_msgs) StdoutLine: {'line': b'[ 35%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.611954] (-) TimerEvent: {}
+[1.624427] (realsense_camera_msgs) StdoutLine: {'line': b'[ 45%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[1.659561] (realsense_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.712135] (-) TimerEvent: {}
+[1.789599] (realsense_camera_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp.o\x1b[0m\n'}
+[1.799527] (realsense_camera_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[1.812326] (-) TimerEvent: {}
+[1.828952] (realsense_camera_msgs) StdoutLine: {'line': b'[ 62%] Built target realsense_camera_msgs__rosidl_typesupport_cpp\n'}
+[1.912507] (-) TimerEvent: {}
+[2.019114] (-) TimerEvent: {}
+[2.051790] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/yan/camps_ws/build/py_pubsub/build', 'install', '--prefix', '/home/yan/camps_ws/install/py_pubsub', '--record', '/home/yan/camps_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/yan/camps_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'yan', 'UNITY_HAS_3D_SUPPORT': 'true', 'LC_TIME': 'id_ID.UTF-8', 'TEXTDOMAIN': 'im-config', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/home/yan/camps_ws/install/realsense_camera_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '2', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/yan', 'OLDPWD': '/home/yan', 'DESKTOP_SESSION': 'unity', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '5621', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/yan/camps_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'yan', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:34019', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'ROS_VERSION': '2', 'USERNAME': 'yan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/home/yan/camps_ws/install/realsense_ros2_camera/bin:/opt/ros/dashing/bin:/home/yan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': 'f18e3bf74c2b45129eca817d5d634dbc', 'SESSION_MANAGER': 'local/yan-desktop:@/tmp/.ICE-unix/6299,unix/yan-desktop:/tmp/.ICE-unix/6299', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18ed25c3_b483_4ff3_8cf5_4483324f21ca', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LC_TELEPHONE': 'id_ID.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.85', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'LC_NAME': 'id_ID.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/yan/camps_ws/build/py_pubsub', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'LC_NUMERIC': 'id_ID.UTF-8', 'PYTHONPATH': '/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs'}, 'shell': False}
+[2.121996] (-) TimerEvent: {}
+[2.223168] (-) TimerEvent: {}
+[2.323940] (-) TimerEvent: {}
+[2.424917] (-) TimerEvent: {}
+[2.526123] (-) TimerEvent: {}
+[2.627452] (-) TimerEvent: {}
+[2.728282] (-) TimerEvent: {}
+[2.829516] (-) TimerEvent: {}
+[2.930646] (-) TimerEvent: {}
+[3.031771] (-) TimerEvent: {}
+[3.132590] (-) TimerEvent: {}
+[3.233740] (-) TimerEvent: {}
+[3.336261] (-) TimerEvent: {}
+[3.437253] (-) TimerEvent: {}
+[3.538582] (-) TimerEvent: {}
+[3.640224] (-) TimerEvent: {}
+[3.741395] (-) TimerEvent: {}
+[3.848331] (-) TimerEvent: {}
+[3.949267] (-) TimerEvent: {}
+[4.050128] (-) TimerEvent: {}
+[4.084683] (realsense_camera_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library librealsense_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.150420] (-) TimerEvent: {}
+[4.209970] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[4.213704] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[4.216449] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[4.217502] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[4.218488] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[4.220309] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[4.250626] (-) TimerEvent: {}
+[4.351848] (-) TimerEvent: {}
+[4.453458] (-) TimerEvent: {}
+[4.518322] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.527325] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.528874] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[4.529861] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[4.532054] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function_point.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.534249] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function_timed.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.543045] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[4.545676] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[4.551035] (py_pubsub) StdoutLine: {'line': b'copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_point.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub\n'}
+[4.553494] (py_pubsub) StdoutLine: {'line': b'copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_timed.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub\n'}
+[4.554522] (-) TimerEvent: {}
+[4.563472] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_point.py to subscriber_member_function_point.cpython-36.pyc\n'}
+[4.565358] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_timed.py to subscriber_member_function_timed.cpython-36.pyc\n'}
+[4.572420] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[4.578743] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.589966] (py_pubsub) StdoutLine: {'line': b"removing '/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[4.591447] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info\n'}
+[4.597764] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[4.603375] (realsense_camera_msgs) StdoutLine: {'line': b'[ 67%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.654711] (-) TimerEvent: {}
+[4.670228] (realsense_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.748344] (py_pubsub) StdoutLine: {'line': b'Installing color script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.751077] (py_pubsub) StdoutLine: {'line': b'Installing depth script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.754428] (py_pubsub) StdoutLine: {'line': b'Installing infra1 script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.755168] (-) TimerEvent: {}
+[4.756990] (realsense_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[4.760876] (py_pubsub) StdoutLine: {'line': b'Installing infra2 script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.761862] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.762707] (py_pubsub) StdoutLine: {'line': b'Installing onesensor script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.765441] (realsense_camera_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[4.771204] (py_pubsub) StdoutLine: {'line': b'Installing point script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.772169] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.773230] (py_pubsub) StdoutLine: {'line': b'Installing timed script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.774577] (py_pubsub) StdoutLine: {'line': b'Installing twice script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.782401] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/yan/camps_ws/build/py_pubsub/install.log'\n"}
+[4.855490] (-) TimerEvent: {}
+[4.906349] (py_pubsub) CommandEnded: {'returncode': 0}
+[4.955723] (-) TimerEvent: {}
+[4.965363] (realsense_camera_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library librealsense_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.012399] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.055937] (-) TimerEvent: {}
+[5.156716] (-) TimerEvent: {}
+[5.195615] (realsense_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense_camera_msgs__rosidl_typesupport_c\n'}
+[5.256916] (-) TimerEvent: {}
+[5.291291] (realsense_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense_camera_msgs\n'}
+[5.357170] (-) TimerEvent: {}
+[5.396893] (realsense_camera_msgs) StdoutLine: {'line': b'[ 81%] Built target realsense_camera_msgs__py\n'}
+[5.457284] (-) TimerEvent: {}
+[5.558273] (-) TimerEvent: {}
+[5.579533] (realsense_camera_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense_camera_msgs/librealsense_camera_msgs__python.so\x1b[0m\n'}
+[5.658518] (-) TimerEvent: {}
+[5.759313] (-) TimerEvent: {}
+[5.860131] (-) TimerEvent: {}
+[5.871347] (realsense_camera_msgs) StdoutLine: {'line': b'[ 89%] Built target realsense_camera_msgs__python\n'}
+[5.960421] (-) TimerEvent: {}
+[6.016184] (realsense_camera_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.017218] (realsense_camera_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.060617] (-) TimerEvent: {}
+[6.161542] (-) TimerEvent: {}
+[6.263030] (-) TimerEvent: {}
+[6.331824] (realsense_camera_msgs) StdoutLine: {'line': b'[ 97%] Built target realsense_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[6.341713] (realsense_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.363277] (-) TimerEvent: {}
+[6.414806] (realsense_camera_msgs) CommandEnded: {'returncode': 0}
+[6.463604] (-) TimerEvent: {}
+[6.564567] (-) TimerEvent: {}
+[6.665298] (-) TimerEvent: {}
+[6.766117] (-) TimerEvent: {}
+[6.866883] (-) TimerEvent: {}
+[6.927129] (realsense_camera_msgs) JobProgress: {'identifier': 'realsense_camera_msgs', 'progress': 'install'}
+[6.967201] (-) TimerEvent: {}
+[7.068272] (-) TimerEvent: {}
+[7.166394] (realsense_camera_msgs) Command: {'cmd': ['/home/yan/.local/bin/cmake', '--install', '/home/yan/camps_ws/build/realsense_camera_msgs'], 'cwd': '/home/yan/camps_ws/build/realsense_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'yan'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'id_ID.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/yan'), ('OLDPWD', '/home/yan'), ('DESKTOP_SESSION', 'unity'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '5621'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/yan/camps_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yan'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:34019'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'yan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/yan/camps_ws/install/realsense_ros2_camera/bin:/opt/ros/dashing/bin:/home/yan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'f18e3bf74c2b45129eca817d5d634dbc'), ('SESSION_MANAGER', 'local/yan-desktop:@/tmp/.ICE-unix/6299,unix/yan-desktop:/tmp/.ICE-unix/6299'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18ed25c3_b483_4ff3_8cf5_4483324f21ca'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yan/camps_ws/build/realsense_camera_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing')]), 'shell': False}
+[7.171817] (-) TimerEvent: {}
+[7.273484] (-) TimerEvent: {}
+[7.374230] (-) TimerEvent: {}
+[7.387786] (realsense_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.390321] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense_camera_msgs\n'}
+[7.391911] (realsense_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_c.so\n'}
+[7.393459] (realsense_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.394673] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/library_path.sh\n'}
+[7.396219] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[7.397789] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs\n'}
+[7.398420] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg\n'}
+[7.399050] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.399687] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.400217] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[7.402092] (realsense_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.408291] (realsense_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.413042] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs\n'}
+[7.414055] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg\n'}
+[7.414639] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__functions.c\n'}
+[7.415144] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__struct.h\n'}
+[7.415730] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__functions.c\n'}
+[7.416308] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics.h\n'}
+[7.417267] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__functions.h\n'}
+[7.418104] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__functions.h\n'}
+[7.419554] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.h\n'}
+[7.420235] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.420990] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__struct.h\n'}
+[7.421777] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info.h\n'}
+[7.422275] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.h\n'}
+[7.422731] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_generator_c.so\n'}
+[7.423176] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs\n'}
+[7.423651] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg\n'}
+[7.424095] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.424547] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.424994] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/dds_fastrtps\n'}
+[7.425514] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.425976] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.426424] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs\n'}
+[7.426866] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg\n'}
+[7.427323] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info.hpp\n'}
+[7.427830] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__traits.hpp\n'}
+[7.428716] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__struct.hpp\n'}
+[7.429756] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__traits.hpp\n'}
+[7.430690] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics.hpp\n'}
+[7.431404] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__struct.hpp\n'}
+[7.432008] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs\n'}
+[7.432588] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg\n'}
+[7.433270] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[7.433870] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[7.434887] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.c\n'}
+[7.435908] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.c\n'}
+[7.436492] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.437356] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.438167] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs\n'}
+[7.438945] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg\n'}
+[7.439584] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.440128] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.440608] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.cpp\n'}
+[7.441062] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.cpp\n'}
+[7.441637] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.442102] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/pythonpath.sh\n'}
+[7.443857] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/__init__.py\n'}
+[7.474404] (-) TimerEvent: {}
+[7.575234] (-) TimerEvent: {}
+[7.638158] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg\n'}
+[7.639079] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_imu_info_s.c\n'}
+[7.639728] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_extrinsics.py\n'}
+[7.640423] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/__init__.py\n'}
+[7.640931] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_extrinsics_s.c\n'}
+[7.641950] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_imu_info.py\n'}
+[7.644515] (realsense_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[7.646508] (realsense_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[7.648702] (realsense_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[7.651038] (realsense_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[7.652959] (realsense_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__python.so\n'}
+[7.654795] (realsense_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__python.so" to ""\n'}
+[7.655504] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/IMUInfo.idl\n'}
+[7.656131] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/Extrinsics.idl\n'}
+[7.656661] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/IMUInfo.msg\n'}
+[7.657254] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/Extrinsics.msg\n'}
+[7.657733] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense_camera_msgs\n'}
+[7.658339] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense_camera_msgs\n'}
+[7.658910] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/ament_prefix_path.sh\n'}
+[7.659540] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/path.sh\n'}
+[7.660105] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.bash\n'}
+[7.660553] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.sh\n'}
+[7.661196] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.zsh\n'}
+[7.661795] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/packages/realsense_camera_msgs\n'}
+[7.662372] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.662902] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.663361] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.663837] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.664338] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/realsense_camera_msgsConfig.cmake\n'}
+[7.664852] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/realsense_camera_msgsConfig-version.cmake\n'}
+[7.665446] (realsense_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/package.xml\n'}
+[7.675420] (-) TimerEvent: {}
+[7.692397] (realsense_camera_msgs) CommandEnded: {'returncode': 0}
+[7.778507] (-) TimerEvent: {}
+[7.879460] (-) TimerEvent: {}
+[7.980195] (-) TimerEvent: {}
+[8.081273] (-) TimerEvent: {}
+[8.181961] (-) TimerEvent: {}
+[8.287963] (-) TimerEvent: {}
+[8.354601] (realsense_camera_msgs) JobEnded: {'identifier': 'realsense_camera_msgs', 'rc': 0}
+[8.375409] (realsense_ros2_camera) JobStarted: {'identifier': 'realsense_ros2_camera'}
+[8.389248] (-) TimerEvent: {}
+[8.439795] (realsense_ros2_camera) JobProgress: {'identifier': 'realsense_ros2_camera', 'progress': 'cmake'}
+[8.445082] (realsense_ros2_camera) JobProgress: {'identifier': 'realsense_ros2_camera', 'progress': 'build'}
+[8.446740] (realsense_ros2_camera) Command: {'cmd': ['/home/yan/.local/bin/cmake', '--build', '/home/yan/camps_ws/build/realsense_ros2_camera', '--', '-j4', '-l4'], 'cwd': '/home/yan/camps_ws/build/realsense_ros2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'yan'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'id_ID.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/yan'), ('OLDPWD', '/home/yan'), ('DESKTOP_SESSION', 'unity'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '5621'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/yan/camps_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yan'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:34019'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'yan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/yan/camps_ws/install/realsense_ros2_camera/bin:/opt/ros/dashing/bin:/home/yan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'f18e3bf74c2b45129eca817d5d634dbc'), ('SESSION_MANAGER', 'local/yan-desktop:@/tmp/.ICE-unix/6299,unix/yan-desktop:/tmp/.ICE-unix/6299'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18ed25c3_b483_4ff3_8cf5_4483324f21ca'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yan/camps_ws/build/realsense_ros2_camera'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing')]), 'shell': False}
+[8.488750] (-) TimerEvent: {}
+[8.589628] (-) TimerEvent: {}
+[8.690385] (-) TimerEvent: {}
+[8.791146] (-) TimerEvent: {}
+[8.891941] (-) TimerEvent: {}
+[8.992753] (-) TimerEvent: {}
+[9.045042] (realsense_ros2_camera) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable realsense_ros2_camera\x1b[0m\n'}
+[9.093012] (-) TimerEvent: {}
+[9.193832] (-) TimerEvent: {}
+[9.299320] (-) TimerEvent: {}
+[9.400196] (-) TimerEvent: {}
+[9.501208] (-) TimerEvent: {}
+[9.602059] (-) TimerEvent: {}
+[9.702919] (-) TimerEvent: {}
+[9.803814] (-) TimerEvent: {}
+[9.904714] (-) TimerEvent: {}
+[10.005660] (-) TimerEvent: {}
+[10.106643] (-) TimerEvent: {}
+[10.207474] (-) TimerEvent: {}
+[10.308337] (-) TimerEvent: {}
+[10.409300] (-) TimerEvent: {}
+[10.510432] (-) TimerEvent: {}
+[10.611706] (-) TimerEvent: {}
+[10.712655] (-) TimerEvent: {}
+[10.813705] (-) TimerEvent: {}
+[10.914700] (-) TimerEvent: {}
+[11.016094] (-) TimerEvent: {}
+[11.116901] (-) TimerEvent: {}
+[11.217956] (-) TimerEvent: {}
+[11.320410] (-) TimerEvent: {}
+[11.421226] (-) TimerEvent: {}
+[11.522045] (-) TimerEvent: {}
+[11.622851] (-) TimerEvent: {}
+[11.723623] (-) TimerEvent: {}
+[11.824474] (-) TimerEvent: {}
+[11.925356] (-) TimerEvent: {}
+[12.026177] (-) TimerEvent: {}
+[12.127065] (-) TimerEvent: {}
+[12.227885] (-) TimerEvent: {}
+[12.328899] (-) TimerEvent: {}
+[12.429897] (-) TimerEvent: {}
+[12.531115] (-) TimerEvent: {}
+[12.632055] (-) TimerEvent: {}
+[12.732852] (-) TimerEvent: {}
+[12.833838] (-) TimerEvent: {}
+[12.934681] (-) TimerEvent: {}
+[13.035855] (-) TimerEvent: {}
+[13.079665] (realsense_ros2_camera) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.1\n'}
+[13.080493] (realsense_ros2_camera) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.1\n'}
+[13.122038] (realsense_ros2_camera) StdoutLine: {'line': b'[100%] Built target realsense_ros2_camera\n'}
+[13.136049] (-) TimerEvent: {}
+[13.189665] (realsense_ros2_camera) CommandEnded: {'returncode': 0}
+[13.236330] (-) TimerEvent: {}
+[13.337369] (-) TimerEvent: {}
+[13.438150] (-) TimerEvent: {}
+[13.513715] (realsense_ros2_camera) JobProgress: {'identifier': 'realsense_ros2_camera', 'progress': 'install'}
+[13.514413] (realsense_ros2_camera) Command: {'cmd': ['/home/yan/.local/bin/cmake', '--install', '/home/yan/camps_ws/build/realsense_ros2_camera'], 'cwd': '/home/yan/camps_ws/build/realsense_ros2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'yan'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'id_ID.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/yan'), ('OLDPWD', '/home/yan'), ('DESKTOP_SESSION', 'unity'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '5621'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/yan/camps_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yan'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:34019'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'yan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/yan/camps_ws/install/realsense_ros2_camera/bin:/opt/ros/dashing/bin:/home/yan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'f18e3bf74c2b45129eca817d5d634dbc'), ('SESSION_MANAGER', 'local/yan-desktop:@/tmp/.ICE-unix/6299,unix/yan-desktop:/tmp/.ICE-unix/6299'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18ed25c3_b483_4ff3_8cf5_4483324f21ca'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yan/camps_ws/build/realsense_ros2_camera'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing')]), 'shell': False}
+[13.538342] (-) TimerEvent: {}
+[13.639245] (-) TimerEvent: {}
+[13.716567] (realsense_ros2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.720793] (realsense_ros2_camera) StdoutLine: {'line': b'-- Installing: /home/yan/camps_ws/install/realsense_ros2_camera/bin/realsense_ros2_camera\n'}
+[13.732676] (realsense_ros2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/yan/camps_ws/install/realsense_ros2_camera/bin/realsense_ros2_camera" to ""\n'}
+[13.737919] (realsense_ros2_camera) StdoutLine: {'line': b'-- Installing: /home/yan/camps_ws/install/realsense_ros2_camera/lib/realsense_ros2_camera/realsense_ros2_camera\n'}
+[13.739355] (-) TimerEvent: {}
+[13.752169] (realsense_ros2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/yan/camps_ws/install/realsense_ros2_camera/lib/realsense_ros2_camera/realsense_ros2_camera" to ""\n'}
+[13.753073] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include\n'}
+[13.753842] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include/realsense_ros2_camera\n'}
+[13.754517] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include/realsense_ros2_camera/constants.hpp\n'}
+[13.755145] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch\n'}
+[13.756642] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/realsense2_to_laserscan.py\n'}
+[13.757457] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/default.rviz\n'}
+[13.757999] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/ros2_intel_realsense.launch.py\n'}
+[13.758606] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/rs.launch.py\n'}
+[13.759589] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/package_run_dependencies/realsense_ros2_camera\n'}
+[13.760833] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/parent_prefix_path/realsense_ros2_camera\n'}
+[13.761969] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/environment/ament_prefix_path.sh\n'}
+[13.762749] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/environment/path.sh\n'}
+[13.763414] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.bash\n'}
+[13.763917] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.sh\n'}
+[13.764487] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.zsh\n'}
+[13.764952] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/packages/realsense_ros2_camera\n'}
+[13.765789] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/cmake/realsense_ros2_cameraConfig.cmake\n'}
+[13.766623] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/cmake/realsense_ros2_cameraConfig-version.cmake\n'}
+[13.768051] (realsense_ros2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/package.xml\n'}
+[13.794895] (realsense_ros2_camera) CommandEnded: {'returncode': 0}
+[13.839580] (-) TimerEvent: {}
+[13.941960] (-) TimerEvent: {}
+[14.043157] (-) TimerEvent: {}
+[14.144810] (-) TimerEvent: {}
+[14.241378] (realsense_ros2_camera) JobEnded: {'identifier': 'realsense_ros2_camera', 'rc': 0}
+[14.246608] (-) TimerEvent: {}
+[14.247049] (-) EventReactorShutdown: {}

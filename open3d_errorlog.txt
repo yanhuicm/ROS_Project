@@ -1,0 +1,2019 @@
+[  1%] Built target 3rdparty_lzf
+[  1%] Built target 3rdparty_tinyfiledialogs
+[  1%] Built target 3rdparty_jsoncpp
+[  3%] Built target ext_turbojpeg
+[  3%] Performing build step for 'ext_assimp'
+[  3%] Built target 3rdparty_rply
+[  4%] Built target 3rdparty_imgui
+[  5%] Built target ext_tbb
+[  8%] Built target 3rdparty_qhull_r
+[  8%] Performing build step for 'ext_filament'
+[  9%] Built target ext_openblas
+[  9%] Built target 3rdparty_glew
+[  7%] Built target zlibstatic
+[ 13%] Built target 3rdparty_qhullcpp
+[ 14%] Built target zlib
+[ 14%] Built target IrrXML
+[ 16%] Built target glfw
+[ 19%] Built target zlib
+[ 19%] Built target EncodeShader
+[ 20%] Built target ext_faiss
+[ 23%] Built target png
+[ 23%] Built target ShaderFileTarget
+[  0%] Built target math
+[  2%] Built target utils
+[  2%] Built target gtest
+[  3%] Built target bluegl
+[  5%] Built target z
+Scanning dependencies of target image
+[  6%] Built target getopt
+[ 15%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCReaderGen1_2x3.cpp.o
+[  6%] Building CXX object libs/image/CMakeFiles/image.dir/src/ImageOps.cpp.o
+[  8%] Built target astcenc
+[  8%] Building CXX object libs/image/CMakeFiles/image.dir/src/ImageSampler.cpp.o
+[  9%] Built target EtcLib
+[  9%] Building CXX object libs/image/CMakeFiles/image.dir/src/KtxBundle.cpp.o
+[  9%] Building CXX object libs/image/CMakeFiles/image.dir/src/LinearImage.cpp.o
+[ 16%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCUtil.cpp.o
+[ 16%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCGeometry.cpp.o
+[  9%] Linking CXX static library libimage.a
+[  9%] Built target image
+[ 11%] Built target png
+[ 11%] Built target spirv-cross-msl
+[ 12%] Built target glslminifier
+[ 12%] Built target smol-v
+[ 12%] Built target spv-tools-cldi100
+[ 12%] Built target spv-tools-spv-amd-gs
+[ 13%] Built target spv-tools-debuginfo
+[ 13%] Built target spirv-tools-header-OpenCLDebugInfo100
+[ 13%] Built target spv-tools-spv-amd-sb
+[ 13%] Built target spv-tools-spv-amd-sevp
+[ 13%] Built target spv-tools-spv-amd-stm
+[ 13%] Built target spirv-tools-header-DebugInfo
+[ 13%] Built target core_tables
+[ 13%] Built target enum_string_mapping
+[ 13%] Built target OGLCompiler
+[ 13%] Built target glslang-build-info
+[ 13%] Built target OSDependent
+[ 13%] Built target SPVRemapper
+[ 14%] Built target spirv-cross-core
+[ 15%] Built target meshoptimizer
+[ 15%] Built target draco_compression_point_cloud_dec
+[ 15%] Built target draco_points_dec
+[ 15%] Built target draco_point_cloud
+[ 15%] Built target draco_animation
+[ 15%] Built target draco_animation_dec
+[ 15%] Built target draco_metadata
+[ 16%] Built target draco_mesh
+[ 17%] Built target draco_compression_bit_coders
+[ 17%] Built target draco_compression_attributes_dec
+[ 18%] Built target draco_attributes
+[ 19%] Built target draco_compression_mesh_dec
+[ 19%] Built target draco_metadata_dec
+[ 19%] Built target draco_dec_config
+[ 20%] Built target draco_io
+[ 21%] Built target draco_core
+[ 21%] Built target draco_compression_entropy
+[ 21%] Built target draco_compression_decode
+[ 22%] Built target test_math
+[ 24%] Built target benchmark
+[ 25%] Built target mathio
+[ 27%] Built target test_utils
+[ 27%] Built target benchmark_utils_callee
+[ 27%] Built target draco_animation_enc
+[ 27%] Built target draco_metadata_enc
+[ 28%] Built target draco_points_enc
+[ 28%] Built target draco_compression_attributes_pred_schemes_enc
+[ 28%] Built target draco_compression_attributes_pred_schemes_dec
+[ 28%] Built target draco_compression_mesh_traverser
+[ 29%] Built target draco_compression_attributes_enc
+[ 29%] Built target draco_compression_encode
+[ 29%] Built target draco_enc_config
+[ 29%] Building CXX object third_party/draco/tnt/CMakeFiles/draco_compression_mesh_enc.dir/__/src/draco/compression/mesh/mesh_encoder.cc.o
+[ 29%] Building CXX object third_party/draco/tnt/CMakeFiles/draco_compression_mesh_enc.dir/__/src/draco/compression/mesh/mesh_sequential_encoder.cc.o
+[ 29%] Built target draco_compression_mesh_enc
+[ 30%] Built target draco_compression_point_cloud_enc
+Scanning dependencies of target civetweb
+[ 30%] Building C object third_party/civetweb/tnt/CMakeFiles/civetweb.dir/__/src/civetweb.c.o
+[ 17%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCMaterial.cpp.o
+Scanning dependencies of target test_bluegl
+[ 30%] Building CXX object libs/bluegl/CMakeFiles/test_bluegl.dir/tests/OpenGLSupport.cpp.o
+[ 30%] Building CXX object libs/bluegl/CMakeFiles/test_bluegl.dir/tests/test_bluegl.cpp.o
+[ 17%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCProfile.cpp.o
+[ 30%] Building CXX object third_party/civetweb/tnt/CMakeFiles/civetweb.dir/__/src/CivetServer.cpp.o
+[ 30%] Linking CXX executable test_bluegl
+[ 30%] Built target test_bluegl
+[ 17%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCCurve.cpp.o
+[ 30%] Linking CXX static library libcivetweb.a
+[ 30%] Built target civetweb
+Scanning dependencies of target imgui
+[ 31%] Building CXX object third_party/imgui/tnt/CMakeFiles/imgui.dir/__/imgui.cpp.o
+[ 31%] Building CXX object third_party/imgui/tnt/CMakeFiles/imgui.dir/__/imgui_demo.cpp.o
+[ 31%] Building CXX object third_party/imgui/tnt/CMakeFiles/imgui.dir/__/imgui_draw.cpp.o
+[ 31%] Building CXX object third_party/imgui/tnt/CMakeFiles/imgui.dir/__/imgui_widgets.cpp.o
+Scanning dependencies of target assimp
+[ 31%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/Assimp.cpp.o
+[ 31%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/BaseImporter.cpp.o
+[ 31%] Linking CXX static library libimgui.a
+[ 31%] Built target imgui
+[ 31%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/BaseProcess.cpp.o
+[ 18%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCBoolean.cpp.o
+[ 32%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/Bitmap.cpp.o
+Scanning dependencies of target sdl2
+[ 32%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/SDL.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 32%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/SDL_assert.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 32%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/CApi/CInterfaceIOWrapper.cpp.o
+[ 32%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/SDL_dataqueue.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 32%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/SDL_error.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 32%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/SDL_hints.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 32%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/SDL_log.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/atomic/SDL_atomic.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/atomic/SDL_spinlock.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/CalcTangentsProcess.cpp.o
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/SDL_audio.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/SDL_audiocvt.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/SDL_audiodev.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/SDL_audiotypecvt.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/SDL_mixer.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/SDL_wave.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/ComputeUVMappingProcess.cpp.o
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/disk/SDL_diskaudio.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/dsp/SDL_dspaudio.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 33%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/audio/dummy/SDL_dummyaudio.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/cpuinfo/SDL_cpuinfo.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/dynapi/SDL_dynapi.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/ConvertToLHProcess.cpp.o
+[ 34%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/CreateAnimMesh.cpp.o
+[ 34%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/DeboneProcess.cpp.o
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_clipboardevents.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_dropevents.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_events.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/DefaultIOStream.cpp.o
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_gesture.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_keyboard.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_mouse.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_quit.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_touch.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/events/SDL_windowevents.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 34%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/DefaultIOSystem.cpp.o
+u[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/file/SDL_rwops.c.o
+bclang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+un[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/haptic/SDL_haptic.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/DefaultLogger.cpp.o
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/joystick/SDL_gamecontroller.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/joystick/SDL_joystick.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/joystick/steam/SDL_steamcontroller.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 18%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCOpenings.cpp.o
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/e_atan2.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/e_fmod.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/e_log.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/e_log10.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/DropFaceNormalsProcess.cpp.o
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/e_pow.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 35%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/e_rem_pio2.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 36%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/e_sqrt.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 36%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/k_cos.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 36%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/k_rem_pio2.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 36%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/k_sin.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 36%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/k_tan.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 36%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_atan.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 36%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_copysign.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 37%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/EmbedTexturesProcess.cpp.o
+[ 37%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_cos.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 37%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_fabs.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 37%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_floor.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 37%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_scalbn.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_sin.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/libm/s_tan.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/power/SDL_power.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/SDL_d3dmath.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/SDL_render.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/SDL_yuv_sw.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/direct3d/SDL_render_d3d.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/direct3d/SDL_shaders_d3d.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/direct3d11/SDL_render_d3d11.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/direct3d11/SDL_shaders_d3d11.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/opengl/SDL_render_gl.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 38%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/Exporter.cpp.o
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/opengl/SDL_shaders_gl.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/opengles/SDL_render_gles.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/opengles2/SDL_render_gles2.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/opengles2/SDL_shaders_gles2.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/psp/SDL_render_psp.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/software/SDL_blendfillrect.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/software/SDL_blendline.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/software/SDL_blendpoint.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXAnimation.cpp.o
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/software/SDL_drawline.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/software/SDL_drawpoint.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 39%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/software/SDL_render_sw.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/render/software/SDL_rotate.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/stdlib/SDL_getenv.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/stdlib/SDL_iconv.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/stdlib/SDL_malloc.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/stdlib/SDL_qsort.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 19%] Building CXX object code/CMakeFiles/assimp.dir/XGL/XGLLoader.cpp.o
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/stdlib/SDL_stdlib.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/stdlib/SDL_string.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXBinaryTokenizer.cpp.o
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/thread/SDL_thread.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/timer/SDL_timer.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_RLEaccel.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXConverter.cpp.o
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 40%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit_0.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit_1.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit_A.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit_N.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit_auto.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit_copy.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_blit_slow.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_bmp.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_clipboard.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_egl.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_fillrect.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 41%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_pixels.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_rect.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_shape.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_stretch.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 19%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXImporter.cpp.o
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_surface.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_video.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_vulkan_utils.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/SDL_yuv.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 20%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXParser.cpp.o
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/dummy/SDL_nullevents.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/dummy/SDL_nullframebuffer.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 20%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXTokenizer.cpp.o
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/dummy/SDL_nullvideo.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 42%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/yuv2rgb/yuv_rgb.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 20%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXConverter.cpp.o
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/core/unix/SDL_poll.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/filesystem/unix/SDL_sysfilesystem.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/haptic/linux/SDL_syshaptic.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXDeformer.cpp.o
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/joystick/linux/SDL_sysjoystick.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/loadso/dlopen/SDL_sysloadso.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/power/linux/SDL_syspower.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/thread/pthread/SDL_syscond.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/thread/pthread/SDL_sysmutex.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/thread/pthread/SDL_syssem.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/thread/pthread/SDL_systhread.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 43%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/thread/pthread/SDL_systls.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/timer/unix/SDL_systimer.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11clipboard.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11dyn.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXDocument.cpp.o
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11events.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11framebuffer.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 21%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXUtil.cpp.o
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11keyboard.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11messagebox.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 21%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXDocument.cpp.o
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11modes.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11mouse.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11opengl.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 44%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXDocumentUtil.cpp.o
+[ 44%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11opengles.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11shape.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11touch.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11video.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11vulkan.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11window.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXImporter.cpp.o
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/SDL_x11xinput2.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/edid-parse.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 22%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXProperties.cpp.o
+[ 45%] Building C object third_party/libsdl2/tnt/CMakeFiles/sdl2.dir/__/src/video/x11/imKStoUCS.c.o
+clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+[ 45%] Linking C shared library libsdl2.so
+clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+[ 45%] Built target sdl2
+Scanning dependencies of target test_glslminifier
+[ 45%] Building CXX object tools/glslminifier/CMakeFiles/test_glslminifier.dir/src/GlslMinify.cpp.o
+[ 45%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXMaterial.cpp.o
+[ 22%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXMeshGeometry.cpp.o
+[ 23%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXMaterial.cpp.o
+[ 45%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXMeshGeometry.cpp.o
+[ 45%] Building CXX object tools/glslminifier/CMakeFiles/test_glslminifier.dir/tests/test_glslminifier.cpp.o
+[ 23%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXModel.cpp.o
+[ 45%] Linking CXX executable test_glslminifier
+[ 45%] Built target test_glslminifier
+Scanning dependencies of target specular-color
+[ 45%] Building CXX object tools/specular-color/CMakeFiles/specular-color.dir/src/main.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXModel.cpp.o
+[ 24%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXAnimation.cpp.o
+[ 24%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXNodeAttribute.cpp.o
+[ 24%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXDeformer.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXNodeAttribute.cpp.o
+[ 46%] Linking CXX executable specular-color
+[ 25%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXBinaryTokenizer.cpp.o
+[ 46%] Built target specular-color
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXParser.cpp.o
+[ 25%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXDocumentUtil.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXProperties.cpp.o
+[ 26%] Building CXX object code/CMakeFiles/assimp.dir/Q3D/Q3DLoader.cpp.o
+Scanning dependencies of target camutils
+[ 46%] Building CXX object libs/camutils/CMakeFiles/camutils.dir/src/Bookmark.cpp.o
+[ 46%] Building CXX object libs/camutils/CMakeFiles/camutils.dir/src/Manipulator.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXTokenizer.cpp.o
+[ 46%] Linking CXX static library libcamutils.a
+[ 46%] Built target camutils
+Scanning dependencies of target filabridge
+[ 46%] Building CXX object libs/filabridge/CMakeFiles/filabridge.dir/src/SamplerBindingMap.cpp.o
+[ 46%] Building CXX object libs/filabridge/CMakeFiles/filabridge.dir/src/SamplerInterfaceBlock.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/FBX/FBXUtil.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/X3D/FIReader.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/FindDegenerates.cpp.o
+[ 26%] Building CXX object code/CMakeFiles/assimp.dir/Q3BSP/Q3BSPFileParser.cpp.o
+[ 46%] Building CXX object libs/filabridge/CMakeFiles/filabridge.dir/src/UniformInterfaceBlock.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/FindInstancesProcess.cpp.o
+[ 27%] Building CXX object code/CMakeFiles/assimp.dir/Q3BSP/Q3BSPFileImporter.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/FindInvalidDataProcess.cpp.o
+[ 46%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/FixNormalsStep.cpp.o
+[ 46%] Building CXX object libs/filabridge/CMakeFiles/filabridge.dir/src/UibGenerator.cpp.o
+[ 46%] Building CXX object libs/filabridge/CMakeFiles/filabridge.dir/src/SibGenerator.cpp.o
+[ 47%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/GenFaceNormalsProcess.cpp.o
+[ 47%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/GenBoundingBoxesProcess.cpp.o
+[ 48%] Linking CXX static library libfilabridge.a
+[ 48%] Built target filabridge
+Scanning dependencies of target geometry
+[ 48%] Building CXX object libs/geometry/CMakeFiles/geometry.dir/src/SurfaceOrientation.cpp.o
+[ 27%] Building CXX object code/CMakeFiles/assimp.dir/Raw/RawLoader.cpp.o
+[ 48%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/GenVertexNormalsProcess.cpp.o
+Scanning dependencies of target ibl
+[ 48%] Building CXX object libs/ibl/CMakeFiles/ibl.dir/src/Cubemap.cpp.o
+[ 48%] Linking CXX static library libgeometry.a
+[ 48%] Built target geometry
+Scanning dependencies of target resgen
+[ 48%] Building CXX object tools/resgen/CMakeFiles/resgen.dir/src/main.cpp.o
+[ 48%] Building CXX object libs/ibl/CMakeFiles/ibl.dir/src/CubemapIBL.cpp.o
+[ 48%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/Importer.cpp.o
+[ 27%] Building CXX object code/CMakeFiles/assimp.dir/SIB/SIBImporter.cpp.o
+[ 48%] Linking CXX executable resgen
+[ 48%] Built target resgen
+Scanning dependencies of target backend
+[ 48%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/BackendUtils.cpp.o
+[ 48%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/Callable.cpp.o
+[ 48%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/ImporterRegistry.cpp.o
+[ 48%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/CircularBuffer.cpp.o
+[ 48%] Building CXX object libs/ibl/CMakeFiles/ibl.dir/src/CubemapSH.cpp.o
+[ 48%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/ImproveCacheLocality.cpp.o
+[ 48%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/CommandBufferQueue.cpp.o
+[ 28%] Building CXX object code/CMakeFiles/assimp.dir/SMD/SMDLoader.cpp.o
+[ 48%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/JoinVerticesProcess.cpp.o
+[ 49%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/CommandStream.cpp.o
+[ 49%] Building CXX object libs/ibl/CMakeFiles/ibl.dir/src/CubemapUtils.cpp.o
+[ 49%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/LimitBoneWeightsProcess.cpp.o
+[ 49%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/Driver.cpp.o
+[ 28%] Building CXX object code/CMakeFiles/assimp.dir/STL/STLLoader.cpp.o
+[ 49%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/MakeVerboseFormat.cpp.o
+[ 50%] Building CXX object libs/ibl/CMakeFiles/ibl.dir/src/Image.cpp.o
+[ 50%] Linking CXX static library libibl.a
+[ 50%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/Handle.cpp.o
+[ 50%] Built target ibl
+Scanning dependencies of target tinyexr
+[ 50%] Building CXX object third_party/tinyexr/tnt/CMakeFiles/tinyexr.dir/tinyexr.cc.o
+[ 50%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Material/MaterialSystem.cpp.o
+[ 50%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/noop/NoopDriver.cpp.o
+[ 29%] Building CXX object code/CMakeFiles/assimp.dir/Terragen/TerragenLoader.cpp.o
+[ 50%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Obj/ObjFileImporter.cpp.o
+[ 29%] Building CXX object code/CMakeFiles/assimp.dir/Unreal/UnrealLoader.cpp.o
+[ 50%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/noop/PlatformNoop.cpp.o
+[ 51%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Obj/ObjFileMtlImporter.cpp.o
+[ 51%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/Platform.cpp.o
+[ 30%] Building CXX object code/CMakeFiles/assimp.dir/X/XFileImporter.cpp.o
+[ 51%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/Program.cpp.o
+[ 51%] Linking CXX static library libtinyexr.a
+[ 51%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Obj/ObjFileParser.cpp.o
+[ 51%] Built target tinyexr
+[ 51%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/SamplerGroup.cpp.o
+[ 51%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/TextureReshaper.cpp.o
+[ 51%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/gl_headers.cpp.o
+[ 51%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/GLUtils.cpp.o
+[ 30%] Building CXX object code/CMakeFiles/assimp.dir/X/XFileParser.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/OpenGLBlitter.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/OpenGLContext.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/OpenGLDriver.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/OptimizeGraph.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/OpenGLProgram.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/OptimizeMeshes.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/OpenGLPlatform.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/TimerQuery.cpp.o
+[ 30%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/PostStepRegistry.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/PlatformGLX.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/PretransformVertices.cpp.o
+[ 52%] Building CXX object filament/backend/CMakeFiles/backend.dir/src/opengl/PlatformEGLHeadless.cpp.o
+[ 31%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Geometry2D.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/ProcessHelper.cpp.o
+[ 31%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Geometry3D.cpp.o
+[ 52%] Linking CXX static library libbackend.a
+[ 52%] Built target backend
+[ 32%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Group.cpp.o
+[ 32%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Light.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/RemoveComments.cpp.o
+[ 33%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Metadata.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/RemoveRedundantMaterials.cpp.o
+[ 33%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Networking.cpp.o
+[ 34%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Postprocess.cpp.o
+[ 34%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Rendering.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/RemoveVCProcess.cpp.o
+[ 34%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Shape.cpp.o
+[ 52%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/SGSpatialSort.cpp.o
+[ 35%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Texturing.cpp.o
+[ 35%] Building CXX object code/CMakeFiles/assimp.dir/X3D/FIReader.cpp.o
+[ 53%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/ScaleProcess.cpp.o
+[ 36%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DVocabulary.cpp.o
+[ 53%] Minifying shader vignette.fs
+[ 53%] Minifying shader ambient_occlusion.fs
+[ 54%] Minifying shader brdf.fs
+[ 54%] Minifying shader common_getters.fs
+[ 54%] Minifying shader common_graphics.fs
+[ 54%] Minifying shader common_lighting.fs
+[ 54%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/SceneCombiner.cpp.o
+[ 54%] Minifying shader common_material.fs
+[ 54%] Minifying shader common_math.fs
+[ 54%] Minifying shader common_shading.fs
+[ 54%] Minifying shader common_shadowing.fs
+[ 54%] Minifying shader common_types.fs
+[ 54%] Minifying shader depth_main.fs
+[ 54%] Minifying shader depth_main.vs
+[ 54%] Minifying shader fog.fs
+[ 55%] Minifying shader getters.fs
+[ 55%] Minifying shader getters.vs
+[ 55%] Minifying shader inputs.fs
+[ 55%] Minifying shader inputs.vs
+[ 55%] Minifying shader light_directional.fs
+[ 55%] Minifying shader light_indirect.fs
+[ 55%] Minifying shader light_punctual.fs
+[ 55%] Minifying shader main.fs
+[ 55%] Minifying shader main.vs
+[ 55%] Minifying shader material_inputs.fs
+[ 55%] Minifying shader material_inputs.vs
+[ 56%] Minifying shader post_process.fs
+[ 36%] Building CXX object code/CMakeFiles/assimp.dir/glTF/glTFCommon.cpp.o
+[ 56%] Minifying shader post_process.vs
+[ 56%] Minifying shader post_process_getters.vs
+[ 56%] Minifying shader post_process_inputs.fs
+[ 56%] Minifying shader post_process_inputs.vs
+[ 56%] Minifying shader shading_lit.fs
+[ 56%] Minifying shader shading_model_cloth.fs
+[ 56%] Minifying shader shading_model_standard.fs
+[ 56%] Minifying shader shading_model_subsurface.fs
+[ 56%] Minifying shader shading_parameters.fs
+[ 56%] Minifying shader shading_unlit.fs
+[ 57%] Minifying shader shadowing.fs
+[ 57%] Aggregating shaders
+Scanning dependencies of target shaders
+[ 57%] Building ASM object shaders/CMakeFiles/shaders.dir/generated/shaders.S.o
+[ 57%] Linking ASM static library libshaders.a
+[ 57%] Built target shaders
+[ 37%] Building CXX object code/CMakeFiles/assimp.dir/glTF/glTFImporter.cpp.o
+[ 37%] Building CXX object code/CMakeFiles/assimp.dir/glTF2/glTF2Importer.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/ScenePreprocessor.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/SkeletonMeshBuilder.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/SortByPTypeProcess.cpp.o
+[ 37%] Building CXX object code/CMakeFiles/assimp.dir/3MF/D3MFImporter.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/SpatialSort.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/SplitByBoneCountProcess.cpp.o
+[ 38%] Building CXX object code/CMakeFiles/assimp.dir/3MF/D3MFOpcPackage.cpp.o
+[ 38%] Building CXX object code/CMakeFiles/assimp.dir/MMD/MMDImporter.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/SplitLargeMeshes.cpp.o
+[ 39%] Building CXX object code/CMakeFiles/assimp.dir/MMD/MMDPmxParser.cpp.o
+[ 39%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileImporter.cpp.o
+[ 40%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileGen1.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/StandardShapes.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/Subdivision.cpp.o
+[ 40%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileGen2.cpp.o
+[ 40%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileGen3.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/TargetAnimation.cpp.o
+[ 57%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/TextureTransform.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/TriangulateProcess.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/PostProcessing/ValidateDataStructure.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/Version.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/VertexTriangleAdjacency.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/code/Common/scene.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.o
+[ 41%] Building C object code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.o
+[ 41%] Building C object code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.o
+[ 58%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.o
+[ 42%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.o
+[ 42%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.o
+[ 59%] Building CXX object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.o
+[ 43%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.o
+[ 43%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.o
+[ 59%] Building C object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.o
+[ 59%] Building C object third_party/libassimp/tnt/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.o
+[ 44%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.o
+[ 59%] Linking CXX static library libassimp.a
+[ 59%] Built target assimp
+Scanning dependencies of target extinst_tables
+[ 59%] Generate info tables for OpenCL extended instructions and operands vunified1.
+[ 59%] Generate info tables for GLSL extended instructions and operands vunified1.
+[ 59%] Built target extinst_tables
+Scanning dependencies of target glslang
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/glslang_tab.cpp.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/attribute.cpp.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/Constant.cpp.o
+[ 44%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/iomapper.cpp.o
+[ 44%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLParser.cpp.o
+[ 45%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/DDLNode.cpp.o
+[ 45%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLCommon.cpp.o
+[ 46%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLExport.cpp.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/InfoSink.cpp.o
+[ 46%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/Value.cpp.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/Initialize.cpp.o
+[ 47%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLStream.cpp.o
+[ 47%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcArithmeticCodec.cpp.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/IntermTraverse.cpp.o
+[ 47%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcDynamicVectorDecoder.cpp.o
+[ 48%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcDynamicVectorEncoder.cpp.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/Intermediate.cpp.o
+[ 48%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcTools.cpp.o
+[ 49%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcTriangleFans.cpp.o
+[ 49%] Building C object code/CMakeFiles/assimp.dir/__/contrib/zip/src/zip.c.o
+[ 59%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/ParseContextBase.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/ParseHelper.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/PoolAlloc.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/RemoveTree.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/Scan.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/ShaderLang.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/SymbolTable.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/Versions.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/intermOut.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/limits.cpp.o
+Scanning dependencies of target spirv-cross-glsl
+[ 60%] Building CXX object third_party/spirv-cross/tnt/CMakeFiles/spirv-cross-glsl.dir/__/spirv_glsl.cpp.o
+Scanning dependencies of target dracodec
+[ 60%] Building C object third_party/draco/tnt/CMakeFiles/dracodec.dir/dummy.c.o
+[ 60%] Linking CXX static library libdracodec.a
+[ 60%] Built target dracodec
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/linkValidate.cpp.o
+Scanning dependencies of target benchmark_main
+[ 60%] Building CXX object third_party/benchmark/tnt/CMakeFiles/benchmark_main.dir/__/src/benchmark_main.cc.o
+[ 60%] Linking CXX static library libbenchmark_main.a
+[ 60%] Built target benchmark_main
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/parseConst.cpp.o
+Scanning dependencies of target filamat_lite
+[ 60%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/eiff/Chunk.cpp.o
+[ 60%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/eiff/ChunkContainer.cpp.o
+[ 60%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/reflection.cpp.o
+[ 60%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/eiff/DictionaryTextChunk.cpp.o
+[ 60%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/eiff/LineDictionary.cpp.o
+[ 60%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/eiff/MaterialTextChunk.cpp.o
+[ 61%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/preprocessor/Pp.cpp.o
+[ 61%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/eiff/MaterialInterfaceBlockChunk.cpp.o
+[ 61%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/eiff/SimpleFieldChunk.cpp.o
+[ 61%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/shaders/CodeGenerator.cpp.o
+[ 61%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/preprocessor/PpAtom.cpp.o
+[ 61%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/shaders/ShaderGenerator.cpp.o
+[ 62%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/Enums.cpp.o
+[ 62%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/preprocessor/PpContext.cpp.o
+[ 62%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/preprocessor/PpScanner.cpp.o
+[ 62%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/MaterialBuilder.cpp.o
+[ 62%] Linking CXX static library libspirv-cross-glsl.a
+[ 62%] Built target spirv-cross-glsl
+[ 62%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/preprocessor/PpTokens.cpp.o
+[ 62%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/MaterialVariants.cpp.o
+[ 62%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/Includes.cpp.o
+[ 62%] Building CXX object libs/filamat/CMakeFiles/filamat_lite.dir/src/sca/GLSLToolsLite.cpp.o
+[ 62%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/MachineIndependent/propagateNoContraction.cpp.o
+[ 62%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/GenericCodeGen/CodeGen.cpp.o
+[ 62%] Linking CXX static library libfilamat_lite.a
+[ 62%] Built target filamat_lite
+[ 62%] Building CXX object third_party/glslang/tnt/glslang/CMakeFiles/glslang.dir/__/GenericCodeGen/Link.cpp.o
+[ 62%] Generating matdbg_resources.bin, matdbg_resources.S, matdbg_resources.apple.S, matdbg_resources.h
+[ 62%] Generating dummy.c
+Scanning dependencies of target matdbg_resources
+[ 62%] Building C object libs/matdbg/CMakeFiles/matdbg_resources.dir/dummy.c.o
+[ 62%] Building ASM object libs/matdbg/CMakeFiles/matdbg_resources.dir/matdbg_resources.S.o
+[ 62%] Linking C static library libmatdbg_resources.a
+[ 62%] Built target matdbg_resources
+Scanning dependencies of target test_camutils
+[ 62%] Building CXX object libs/camutils/CMakeFiles/test_camutils.dir/tests/test_camutils.cpp.o
+Scanning dependencies of target filaflat
+[ 62%] Building CXX object libs/filaflat/CMakeFiles/filaflat.dir/src/ChunkContainer.cpp.o
+[ 62%] Building CXX object libs/filaflat/CMakeFiles/filaflat.dir/src/DictionaryReader.cpp.o
+[ 62%] Building CXX object libs/filaflat/CMakeFiles/filaflat.dir/src/MaterialChunk.cpp.o
+[ 62%] Linking CXX executable test_camutils
+[ 62%] Linking CXX static library libglslang.a
+[ 62%] Built target glslang
+Scanning dependencies of target imageio
+[ 62%] Building CXX object libs/imageio/CMakeFiles/imageio.dir/src/BlockCompression.cpp.o
+[ 62%] Built target test_camutils
+[ 62%] Update build-version.inc in the SPIRV-Tools build directory (if necessary).
+Scanning dependencies of target SPIRV-Tools
+[ 62%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/util/bit_vector.cpp.o
+[ 62%] Building CXX object libs/filaflat/CMakeFiles/filaflat.dir/src/ShaderBuilder.cpp.o
+[ 62%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/util/parse_number.cpp.o
+[ 62%] Building CXX object libs/filaflat/CMakeFiles/filaflat.dir/src/Unflattener.cpp.o
+[ 62%] Building CXX object libs/imageio/CMakeFiles/imageio.dir/src/ImageDecoder.cpp.o
+[ 62%] Linking CXX static library libfilaflat.a
+[ 62%] Built target filaflat
+Scanning dependencies of target SPIRV
+[ 62%] Building CXX object third_party/glslang/tnt/SPIRV/CMakeFiles/SPIRV.dir/__/GlslangToSpv.cpp.o
+[ 50%] Linking CXX static library libassimp.a
+[ 62%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/util/string_utils.cpp.o
+[ 62%] Building CXX object libs/imageio/CMakeFiles/imageio.dir/src/ImageDiffer.cpp.o
+[ 62%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/assembly_grammar.cpp.o
+[ 63%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/binary.cpp.o
+[ 63%] Building CXX object libs/imageio/CMakeFiles/imageio.dir/src/ImageEncoder.cpp.o
+[ 63%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/diagnostic.cpp.o
+[ 63%] Linking CXX static library libimageio.a
+[ 63%] Built target imageio
+[ 63%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/disassemble.cpp.o
+[ 63%] Building CXX object third_party/glslang/tnt/SPIRV/CMakeFiles/SPIRV.dir/__/InReadableOrder.cpp.o
+[ 63%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/enum_string_mapping.cpp.o
+[ 64%] Building CXX object third_party/glslang/tnt/SPIRV/CMakeFiles/SPIRV.dir/__/Logger.cpp.o
+[ 64%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/ext_inst.cpp.o
+[ 64%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/extensions.cpp.o
+Scanning dependencies of target benchmark_math
+[ 64%] Building CXX object libs/math/CMakeFiles/benchmark_math.dir/benchmarks/benchmark_fast.cpp.o
+[100%] Built target assimp
+[ 64%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/libspirv.cpp.o
+[ 24%] Performing install step for 'ext_assimp'
+[ 64%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/name_mapper.cpp.o
+[  7%] Built target zlibstatic
+[ 14%] Built target zlib
+[ 14%] Built target IrrXML
+[100%] Built target assimp
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/yan/Open3D/assimp/lib/cmake/assimp-5.0/assimp-config.cmake
+-- Installing: /home/yan/Open3D/assimp/lib/cmake/assimp-5.0/assimp-config-version.cmake
+-- Installing: /home/yan/Open3D/assimp/lib/cmake/assimp-5.0/assimpTargets.cmake
+-- Installing: /home/yan/Open3D/assimp/lib/cmake/assimp-5.0/assimpTargets-release.cmake
+-- Installing: /home/yan/Open3D/assimp/lib/pkgconfig/assimp.pc
+-- Installing: /home/yan/Open3D/assimp/lib/libzlibstatic.a
+-- Installing: /home/yan/Open3D/assimp/lib/libIrrXML.a
+-- Installing: /home/yan/Open3D/assimp/lib/libassimp.a
+/home/yan/Open3D/filament/src/ext_filament/libs/math/benchmarks/benchmark_fast.cpp:74:13: warning: 
+      loop not vectorized: failed explicitly specified loop vectorization
+      [-Wpass-failed=loop-vectorize]
+static void BM_func(benchmark::State& state) noexcept {
+            ^
+/home/yan/Open3D/filament/src/ext_filament/libs/math/benchmarks/benchmark_fast.cpp:74:13: warning: 
+      loop not vectorized: failed explicitly specified loop vectorization
+      [-Wpass-failed=loop-vectorize]
+2 warnings generated.
+[ 64%] Linking CXX executable benchmark_math
+-- Installing: /home/yan/Open3D/assimp/include/assimp/anim.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/aabb.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/ai_assert.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/camera.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/color4.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/color4.inl
+-- Installing: /home/yan/Open3D/assimp/include/assimp/config.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/defs.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Defines.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/cfileio.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/light.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/material.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/material.inl
+-- Installing: /home/yan/Open3D/assimp/include/assimp/matrix3x3.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/matrix3x3.inl
+[ 64%] Built target benchmark_math
+[ 64%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/opcode.cpp.o
+-- Installing: /home/yan/Open3D/assimp/include/assimp/matrix4x4.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/matrix4x4.inl
+-- Installing: /home/yan/Open3D/assimp/include/assimp/mesh.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/pbrmaterial.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/postprocess.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/quaternion.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/quaternion.inl
+-- Installing: /home/yan/Open3D/assimp/include/assimp/scene.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/metadata.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/texture.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/types.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/vector2.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/vector2.inl
+-- Installing: /home/yan/Open3D/assimp/include/assimp/vector3.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/vector3.inl
+-- Installing: /home/yan/Open3D/assimp/include/assimp/version.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/cimport.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/importerdesc.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Importer.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/DefaultLogger.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/ProgressHandler.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/IOStream.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/IOSystem.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Logger.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/LogStream.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/NullLogger.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/cexport.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Exporter.hpp
+-- Installing: /home/yan/Open3D/assimp/include/assimp/DefaultIOStream.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/DefaultIOSystem.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/ZipArchiveIOSystem.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/SceneCombiner.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/fast_atof.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/qnan.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/BaseImporter.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Hash.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/MemoryIOWrapper.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/ParsingUtils.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/StreamReader.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/StreamWriter.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/StringComparison.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/StringUtils.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/SGSpatialSort.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/GenericProperty.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/SpatialSort.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/SkeletonMeshBuilder.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/SmoothingGroups.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/SmoothingGroups.inl
+-- Installing: /home/yan/Open3D/assimp/include/assimp/StandardShapes.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/RemoveComments.h
+[ 64%] Building CXX object third_party/glslang/tnt/SPIRV/CMakeFiles/SPIRV.dir/__/SpvBuilder.cpp.o
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Subdivision.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Vertex.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/LineSplitter.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/TinyFormatter.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Profiler.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/LogAux.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Bitmap.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/XMLTools.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/IOStreamBuffer.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/CreateAnimMesh.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/irrXMLWrapper.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/BlobIOSystem.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/MathFunctions.h
+[ 64%] Building CXX object third_party/glslang/tnt/SPIRV/CMakeFiles/SPIRV.dir/__/SpvPostProcess.cpp.o
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Macros.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Exceptional.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/ByteSwapper.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Compiler/pushpack1.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Compiler/poppack1.h
+-- Installing: /home/yan/Open3D/assimp/include/assimp/Compiler/pstdint.h
+[ 24%] Completed 'ext_assimp'
+[ 25%] Built target ext_assimp
+[ 64%] Building CXX object third_party/glslang/tnt/SPIRV/CMakeFiles/SPIRV.dir/__/doc.cpp.o
+[ 64%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/operand.cpp.o
+[ 64%] Building CXX object third_party/glslang/tnt/SPIRV/CMakeFiles/SPIRV.dir/__/disassemble.cpp.o
+[ 64%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/parsed_operand.cpp.o
+[ 65%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/print.cpp.o
+[ 65%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/software_version.cpp.o
+Scanning dependencies of target benchmark_utils
+[ 66%] Building CXX object libs/utils/CMakeFiles/benchmark_utils.dir/benchmark/benchmark_allocators.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/spirv_endian.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/spirv_fuzzer_options.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/spirv_optimizer_options.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/spirv_reducer_options.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/spirv_target_env.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/spirv_validator_options.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/table.cpp.o
+[ 66%] Building CXX object libs/utils/CMakeFiles/benchmark_utils.dir/benchmark/benchmark_binary_search.cpp.o
+[ 66%] Building CXX object libs/utils/CMakeFiles/benchmark_utils.dir/benchmark/benchmark_calls.cpp.o
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/text.cpp.o
+[ 66%] Linking CXX static library libSPIRV.a
+[ 66%] Built target SPIRV
+[ 66%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/text_handler.cpp.o
+[ 66%] Building CXX object libs/utils/CMakeFiles/benchmark_utils.dir/benchmark/benchmark_JobSystem.cpp.o
+[ 66%] Building CXX object libs/utils/CMakeFiles/benchmark_utils.dir/benchmark/benchmark_mutex.cpp.o
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate.cpp.o
+[ 67%] Building CXX object libs/utils/CMakeFiles/benchmark_utils.dir/benchmark/benchmark_memcpy.cpp.o
+Scanning dependencies of target test_filamat_lite
+[ 67%] Building CXX object libs/filamat/CMakeFiles/test_filamat_lite.dir/tests/test_filamat_lite.cpp.o
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_adjacency.cpp.o
+[ 67%] Linking CXX executable benchmark_utils
+[ 67%] Built target benchmark_utils
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_annotation.cpp.o
+Scanning dependencies of target test_cmgen
+[ 67%] Building CXX object tools/cmgen/CMakeFiles/test_cmgen.dir/tests/test_cmgen.cpp.o
+[ 67%] Linking CXX executable test_filamat_lite
+[ 67%] Built target test_filamat_lite
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_arithmetics.cpp.o
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_atomics.cpp.o
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_barriers.cpp.o
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_bitwise.cpp.o
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_builtins.cpp.o
+[ 67%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_capability.cpp.o
+Scanning dependencies of target cso-lut
+[ 67%] Building CXX object tools/cso-lut/CMakeFiles/cso-lut.dir/src/main.cpp.o
+[ 68%] Linking CXX executable test_cmgen
+[ 68%] Built target test_cmgen
+[ 68%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_cfg.cpp.o
+[ 68%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_composites.cpp.o
+[ 68%] Linking CXX executable cso-lut
+[ 68%] Built target cso-lut
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_constants.cpp.o
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_conversion.cpp.o
+Scanning dependencies of target mipgen
+[ 69%] Building CXX object tools/mipgen/CMakeFiles/mipgen.dir/src/main.cpp.o
+[ 69%] Linking CXX executable mipgen
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_debug.cpp.o
+[ 69%] Built target mipgen
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_decorations.cpp.o
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_derivatives.cpp.o
+Scanning dependencies of target normal-blending
+[ 69%] Building CXX object tools/normal-blending/CMakeFiles/normal-blending.dir/src/main.cpp.o
+[ 69%] Linking CXX executable normal-blending
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_extensions.cpp.o
+[ 69%] Built target normal-blending
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_execution_limitations.cpp.o
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_function.cpp.o
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_id.cpp.o
+Scanning dependencies of target roughness-prefilter
+[ 69%] Building CXX object tools/roughness-prefilter/CMakeFiles/roughness-prefilter.dir/src/main.cpp.o
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_image.cpp.o
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_interfaces.cpp.o
+[ 69%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_instruction.cpp.o
+[ 69%] Linking CXX executable roughness-prefilter
+[ 69%] Built target roughness-prefilter
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_layout.cpp.o
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_literals.cpp.o
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_logicals.cpp.o
+Scanning dependencies of target cmgen
+[ 70%] Building CXX object tools/cmgen/CMakeFiles/cmgen.dir/src/cmgen.cpp.o
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_memory.cpp.o
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_memory_semantics.cpp.o
+[ 70%] Building CXX object tools/cmgen/CMakeFiles/cmgen.dir/src/JobQueue.cpp.o
+[ 70%] Building CXX object tools/cmgen/CMakeFiles/cmgen.dir/src/ProgressUpdater.cpp.o
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_misc.cpp.o
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_mode_setting.cpp.o
+[ 70%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_non_uniform.cpp.o
+[ 71%] Linking CXX executable cmgen
+[ 71%] Built target cmgen
+[ 71%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_primitives.cpp.o
+[ 71%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_scopes.cpp.o
+[ 71%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_small_type_uses.cpp.o
+Scanning dependencies of target test_image
+[ 72%] Building CXX object libs/image/CMakeFiles/test_image.dir/tests/test_image.cpp.o
+[ 73%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validate_type.cpp.o
+[ 73%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/basic_block.cpp.o
+[ 73%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/construct.cpp.o
+[ 73%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/function.cpp.o
+[ 73%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/instruction.cpp.o
+[ 73%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/val/validation_state.cpp.o
+[ 73%] Linking CXX executable test_image
+[ 73%] Building CXX object third_party/spirv-tools/source/CMakeFiles/SPIRV-Tools.dir/util/timer.cpp.o
+[ 73%] Built target test_image
+[ 73%] Linking CXX static library libSPIRV-Tools.a
+[ 73%] Built target SPIRV-Tools
+Scanning dependencies of target matdbg
+Scanning dependencies of target SPIRV-Tools-opt
+[ 73%] Building CXX object libs/matdbg/CMakeFiles/matdbg.dir/src/CommonWriter.cpp.o
+[ 73%] Building CXX object libs/matdbg/CMakeFiles/matdbg.dir/src/DebugServer.cpp.o
+[ 73%] Building CXX object libs/matdbg/CMakeFiles/matdbg.dir/src/JsonWriter.cpp.o
+[ 73%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/aggressive_dead_code_elim_pass.cpp.o
+[ 73%] Building CXX object libs/matdbg/CMakeFiles/matdbg.dir/src/ShaderReplacer.cpp.o
+[ 74%] Building CXX object libs/matdbg/CMakeFiles/matdbg.dir/src/ShaderExtractor.cpp.o
+[ 74%] Building CXX object libs/matdbg/CMakeFiles/matdbg.dir/src/ShaderInfo.cpp.o
+[ 74%] Building CXX object libs/matdbg/CMakeFiles/matdbg.dir/src/TextWriter.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/amd_ext_to_khr.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/basic_block.cpp.o
+[ 75%] Linking CXX static library libmatdbg.a
+Combining  dependencies into single shared library
+[ 75%] Built target matdbg
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/block_merge_pass.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/block_merge_util.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/build_module.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/ccp_pass.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/cfg_cleanup_pass.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/cfg.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/code_sink.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/combine_access_chains.cpp.o
+[ 75%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/compact_ids_pass.cpp.o
+Scanning dependencies of target matinfo
+[ 75%] Building CXX object tools/matinfo/CMakeFiles/matinfo.dir/src/main.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/composite.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/const_folding_rules.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/constants.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/convert_to_half_pass.cpp.o
+[ 76%] Linking CXX executable matinfo
+[ 76%] Built target matinfo
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/copy_prop_arrays.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/dead_branch_elim_pass.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/dead_insert_elim_pass.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/dead_variable_elimination.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/decompose_initialized_variables_pass.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/decoration_manager.cpp.o
+[ 76%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/def_use_manager.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/desc_sroa.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/dominator_analysis.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/dominator_tree.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/eliminate_dead_constant_pass.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/eliminate_dead_functions_pass.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/eliminate_dead_functions_util.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/eliminate_dead_members_pass.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/feature_manager.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/fix_storage_class.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/flatten_decoration_pass.cpp.o
+[ 77%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/fold.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/folding_rules.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/fold_spec_constant_op_and_composite_pass.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/freeze_spec_constant_value_pass.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/function.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/graphics_robust_access_pass.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/generate_webgpu_initializers_pass.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/if_conversion.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/inline_exhaustive_pass.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/inline_opaque_pass.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/inline_pass.cpp.o
+[ 78%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/inst_bindless_check_pass.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/inst_buff_addr_check_pass.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/instruction.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/instruction_list.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/instrument_pass.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/ir_context.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/ir_loader.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/legalize_vector_shuffle_pass.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/licm_pass.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/local_access_chain_convert_pass.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/local_redundancy_elimination.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/local_single_block_elim_pass.cpp.o
+[ 79%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/local_single_store_elim_pass.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_dependence.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_dependence_helpers.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_descriptor.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_fission.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_fusion.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_fusion_pass.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_peeling.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_utils.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_unroller.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/loop_unswitch_pass.cpp.o
+[ 80%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/mem_pass.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/merge_return_pass.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/module.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/optimizer.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/pass.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/pass_manager.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/private_to_local_pass.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/process_lines_pass.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/propagator.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/reduce_load_size.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/redundancy_elimination.cpp.o
+[ 81%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/register_pressure.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/relax_float_ops_pass.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/remove_duplicates_pass.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/replace_invalid_opc.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/scalar_analysis.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/scalar_analysis_simplification.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/scalar_replacement_pass.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/set_spec_constant_default_value_pass.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/simplification_pass.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/split_invalid_unreachable_pass.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/ssa_rewrite_pass.cpp.o
+[ 82%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/strength_reduction_pass.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/strip_atomic_counter_memory_pass.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/strip_debug_info_pass.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/strip_reflect_info_pass.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/struct_cfg_analysis.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/type_manager.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/types.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/unify_const_pass.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/upgrade_memory_model.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/value_number_table.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/vector_dce.cpp.o
+[ 83%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/workaround1209.cpp.o
+[ 84%] Building CXX object third_party/spirv-tools/source/opt/CMakeFiles/SPIRV-Tools-opt.dir/wrap_opkill.cpp.o
+[ 84%] Linking CXX static library libSPIRV-Tools-opt.a
+[ 84%] Built target SPIRV-Tools-opt
+Scanning dependencies of target SPIRV-Tools-link
+Scanning dependencies of target filamat
+Scanning dependencies of target SPIRV-Tools-reduce
+[ 84%] Building CXX object third_party/spirv-tools/source/link/CMakeFiles/SPIRV-Tools-link.dir/linker.cpp.o
+[ 84%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/change_operand_reduction_opportunity.cpp.o
+[ 84%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/change_operand_to_undef_reduction_opportunity.cpp.o
+[ 84%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/Chunk.cpp.o
+[ 84%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/ChunkContainer.cpp.o
+[ 84%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/merge_blocks_reduction_opportunity.cpp.o
+[ 84%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/DictionaryTextChunk.cpp.o
+[ 84%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/LineDictionary.cpp.o
+[ 84%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/MaterialTextChunk.cpp.o
+[ 84%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/merge_blocks_reduction_opportunity_finder.cpp.o
+[ 84%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/MaterialInterfaceBlockChunk.cpp.o
+[ 84%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/operand_to_const_reduction_opportunity_finder.cpp.o
+[ 84%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/SimpleFieldChunk.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/shaders/CodeGenerator.cpp.o
+[ 85%] Linking CXX static library libSPIRV-Tools-link.a
+[ 85%] Built target SPIRV-Tools-link
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/shaders/ShaderGenerator.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/Enums.cpp.o
+[ 85%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/operand_to_undef_reduction_opportunity_finder.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/MaterialBuilder.cpp.o
+[ 85%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/operand_to_dominating_id_reduction_opportunity_finder.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/MaterialVariants.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/Includes.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/BlobDictionary.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/DictionarySpirvChunk.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/eiff/MaterialSpirvChunk.cpp.o
+[ 85%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/reducer.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/sca/ASTHelpers.cpp.o
+[ 85%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/sca/GLSLTools.cpp.o
+[ 85%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/reduction_opportunity.cpp.o
+[ 86%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/reduction_pass.cpp.o
+[ 87%] Building CXX object libs/filamat/CMakeFiles/filamat.dir/src/GLSLPostProcessor.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/reduction_util.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_block_reduction_opportunity.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_block_reduction_opportunity_finder.cpp.o
+[ 87%] Linking CXX static library libfilamat.a
+Combining  dependencies into single shared library
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_function_reduction_opportunity.cpp.o
+[ 87%] Built target filamat
+Scanning dependencies of target matlang
+[ 87%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/Compiler.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_function_reduction_opportunity_finder.cpp.o
+[ 87%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/CommandlineConfig.cpp.o
+[ 87%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/JsonishLexer.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_instruction_reduction_opportunity.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_selection_reduction_opportunity.cpp.o
+[ 87%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/JsonishParser.cpp.o
+[ 87%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/MaterialCompiler.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_selection_reduction_opportunity_finder.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/remove_unreferenced_instruction_reduction_opportunity_finder.cpp.o
+[ 87%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/structured_loop_to_selection_reduction_opportunity.cpp.o
+[ 87%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/MaterialLexer.cpp.o
+[ 87%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/ParametersProcessor.cpp.o
+[ 88%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/structured_loop_to_selection_reduction_opportunity_finder.cpp.o
+[ 88%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.o
+[ 88%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.o
+[ 89%] Building CXX object tools/matc/CMakeFiles/matlang.dir/src/matc/DirIncluder.cpp.o
+[ 89%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/simple_conditional_branch_to_branch_opportunity_finder.cpp.o
+[ 89%] Linking CXX static library libmatlang.a
+[ 89%] Built target matlang
+[ 89%] Building CXX object third_party/spirv-tools/source/reduce/CMakeFiles/SPIRV-Tools-reduce.dir/simple_conditional_branch_to_branch_reduction_opportunity.cpp.o
+Scanning dependencies of target test_filamat
+[ 89%] Building CXX object libs/filamat/CMakeFiles/test_filamat.dir/tests/test_filamat.cpp.o
+[ 89%] Building CXX object libs/filamat/CMakeFiles/test_filamat.dir/tests/test_includes.cpp.o
+Scanning dependencies of target test_matc
+[ 89%] Building CXX object tools/matc/CMakeFiles/test_matc.dir/tests/test_matc.cpp.o
+[ 89%] Linking CXX static library libSPIRV-Tools-reduce.a
+[ 89%] Built target SPIRV-Tools-reduce
+[ 89%] Building CXX object tools/matc/CMakeFiles/test_matc.dir/tests/test_includer.cpp.o
+[ 89%] Building CXX object tools/matc/CMakeFiles/test_matc.dir/tests/MockConfig.cpp.o
+Scanning dependencies of target matc
+[ 89%] Building CXX object tools/matc/CMakeFiles/matc.dir/src/main.cpp.o
+[ 89%] Linking CXX executable test_matc
+[ 89%] Linking CXX executable test_filamat
+[ 89%] Built target test_matc
+[ 89%] Built target test_filamat
+[ 89%] Linking CXX executable matc
+[ 89%] Built target matc
+[ 89%] Generating dummy.c
+[ 89%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_transmission.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_transmission.filamat
+[ 89%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lite/lit_fade.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lite/lit_fade.filamat
+[ 89%] Compiling material src/materials/vsmMipmap.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/vsmMipmap.filamat
+[ 89%] Compiling material src/materials/colorGrading/colorGrading.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/colorGrading.filamat
+[ 89%] Compiling material src/materials/colorGrading/colorGradingAsSubpass.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/colorGradingAsSubpass.filamat
+[ 89%] Compiling material src/materials/defaultMaterial.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/defaultMaterial.filamat
+[ 90%] Compiling material src/materials/dof/dof.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/dof.filamat
+[ 90%] Compiling material src/materials/dof/dofDownsample.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/dofDownsample.filamat
+[ 90%] Compiling material src/materials/dof/dofCombine.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/dofCombine.filamat
+[ 90%] Compiling material src/materials/dof/dofTiles.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/dofTiles.filamat
+[ 90%] Compiling material src/materials/dof/dofDilate.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/dofDilate.filamat
+[ 90%] Compiling material src/materials/dof/dofMipmap.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/dofMipmap.filamat
+[ 90%] Compiling material src/materials/dof/dofMedian.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/dofMedian.filamat
+[ 90%] Compiling material src/materials/blitLow.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/blitLow.filamat
+[ 90%] Compiling material src/materials/blitMedium.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/blitMedium.filamat
+[ 90%] Compiling material src/materials/blitHigh.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/blitHigh.filamat
+[ 90%] Compiling material src/materials/bloom/bloomDownsample.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/bloomDownsample.filamat
+[ 91%] Compiling material src/materials/bloom/bloomUpsample.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/bloomUpsample.filamat
+[ 91%] Compiling material src/materials/ssao/bilateralBlur.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/bilateralBlur.filamat
+[ 91%] Compiling material src/materials/ssao/mipmapDepth.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/mipmapDepth.filamat
+[ 91%] Compiling material src/materials/skybox.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/skybox.filamat
+[ 91%] Compiling material src/materials/ssao/sao.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/sao.filamat
+[ 91%] Generating lite/dummy.c
+[ 92%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lite/lit_opaque.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lite/lit_opaque.filamat
+[ 92%] Compiling material src/materials/separableGaussianBlur.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/separableGaussianBlur.filamat
+[ 92%] Compiling material src/materials/antiAliasing/fxaa.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/fxaa.filamat
+[ 92%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_fade.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_fade.filamat
+[ 92%] Compiling material src/materials/antiAliasing/taa.mat to /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/material/taa.filamat
+[ 92%] Generating DFG LUT /home/yan/Open3D/filament/src/ext_filament-build/filament/generated/data/dfg.inc
+[ 92%] Aggregating compiled materials
+[ 92%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_opaque.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_opaque.filamat
+Scanning dependencies of target filament
+[ 92%] Building CXX object filament/CMakeFiles/filament.dir/src/components/CameraManager.cpp.o
+[ 92%] Generating lite/gltfresources_lite.bin, lite/gltfresources_lite.S, lite/gltfresources_lite.apple.S, lite/gltfresources_lite.h
+Scanning dependencies of target gltfio_resources_lite
+[ 92%] Building C object libs/gltfio/CMakeFiles/gltfio_resources_lite.dir/lite/dummy.c.o
+[ 92%] Building ASM object libs/gltfio/CMakeFiles/gltfio_resources_lite.dir/lite/gltfresources_lite.S.o
+[ 92%] Linking C static library libgltfio_resources_lite.a
+[ 92%] Built target gltfio_resources_lite
+[ 92%] Building CXX object filament/CMakeFiles/filament.dir/src/components/LightManager.cpp.o
+[ 92%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_masked.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/lit_masked.filamat
+[ 92%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/specularGlossiness_fade.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/specularGlossiness_fade.filamat
+[ 93%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/specularGlossiness_opaque.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/specularGlossiness_opaque.filamat
+[ 93%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/specularGlossiness_masked.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/specularGlossiness_masked.filamat
+[ 93%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/unlit_fade.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/unlit_fade.filamat
+[ 93%] Building CXX object filament/CMakeFiles/filament.dir/src/components/RenderableManager.cpp.o
+[ 93%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/unlit_opaque.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/unlit_opaque.filamat
+[ 93%] Compiling material /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/unlit_masked.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/gltfio/unlit_masked.filamat
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/components/TransformManager.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/fg/Blackboard.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/fg/FrameGraph.cpp.o
+[ 94%] Generating gltfresources.bin, gltfresources.S, gltfresources.apple.S, gltfresources.h
+Scanning dependencies of target gltfio_resources
+[ 94%] Building C object libs/gltfio/CMakeFiles/gltfio_resources.dir/dummy.c.o
+[ 94%] Building ASM object libs/gltfio/CMakeFiles/gltfio_resources.dir/gltfresources.S.o
+[ 94%] Linking C static library libgltfio_resources.a
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/fg/FrameGraphHandle.cpp.o
+[ 94%] Built target gltfio_resources
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/fg/FrameGraphPassResources.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/fg/fg/PassNode.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/fg/fg/RenderTargetResourceEntry.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/fg/fg/ResourceEntry.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/Box.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/Camera.cpp.o
+[ 94%] Building CXX object filament/CMakeFiles/filament.dir/src/Color.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/ColorGrading.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/Culler.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/DebugRegistry.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/DFG.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/VertexBuffer.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/Engine.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/Exposure.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/Fence.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/FrameInfo.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/FrameSkipper.cpp.o
+[ 95%] Building CXX object filament/CMakeFiles/filament.dir/src/Froxelizer.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/Frustum.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/GPUBuffer.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/IndexBuffer.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/IndirectLight.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/Material.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/MaterialParser.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/MaterialInstance.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/PostProcessManager.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/Renderer.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/RenderPass.cpp.o
+[ 96%] Building CXX object filament/CMakeFiles/filament.dir/src/RenderPrimitive.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/RenderTarget.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/ResourceAllocator.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/Scene.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/ShadowMap.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/ShadowMapManager.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/Skybox.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/SwapChain.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/Stream.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/Texture.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/UniformBuffer.cpp.o
+[ 97%] Building CXX object filament/CMakeFiles/filament.dir/src/View.cpp.o
+[ 98%] Building CXX object filament/CMakeFiles/filament.dir/src/Viewport.cpp.o
+[ 98%] Building ASM object filament/CMakeFiles/filament.dir/generated/resources/materials.S.o
+[ 98%] Linking CXX static library libfilament.a
+[ 98%] Built target filament
+Scanning dependencies of target filameshio
+Scanning dependencies of target benchmark_filament
+[ 98%] Generating resources/dummy.c
+Scanning dependencies of target gltfio_core
+[ 98%] Aggregating resources
+[ 98%] Building CXX object libs/filameshio/CMakeFiles/filameshio.dir/src/MeshReader.cpp.o
+[ 98%] Building CXX object filament/benchmark/CMakeFiles/benchmark_filament.dir/benchmark_filament.cpp.o
+Scanning dependencies of target test_material_parser
+[ 98%] Building CXX object filament/test/CMakeFiles/test_material_parser.dir/filament_test_material_parser.cpp.o
+[ 98%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/Animator.cpp.o
+[ 98%] Linking CXX static library libfilameshio.a
+[ 98%] Built target filameshio
+[ 98%] Building ASM object filament/test/CMakeFiles/test_material_parser.dir/resources/filament_test_resources.S.o
+[ 98%] Compiling material src/materials/uiBlit.mat to /home/yan/Open3D/filament/src/ext_filament-build/libs/filagui/generated/material/uiBlit.filamat
+[ 98%] Linking CXX executable benchmark_filament
+[ 98%] Built target benchmark_filament
+[ 98%] Generating generated/resources/dummy.c
+[ 98%] Building C object filament/test/CMakeFiles/test_material_parser.dir/resources/dummy.c.o
+[ 98%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/AssetLoader.cpp.o
+[ 98%] Aggregating resources
+Scanning dependencies of target filagui
+[ 98%] Building CXX object libs/filagui/CMakeFiles/filagui.dir/src/ImGuiHelper.cpp.o
+[ 98%] Linking CXX executable test_material_parser
+[ 98%] Built target test_material_parser
+[ 99%] Building CXX object libs/filagui/CMakeFiles/filagui.dir/src/ImGuiExtensions.cpp.o
+[ 99%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/DependencyGraph.cpp.o
+[ 99%] Building ASM object libs/filagui/CMakeFiles/filagui.dir/generated/resources/filagui_resources.S.o
+[ 99%] Building C object libs/filagui/CMakeFiles/filagui.dir/generated/resources/dummy.c.o
+[ 99%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/DracoCache.cpp.o
+[ 99%] Linking CXX static library libfilagui.a
+[ 99%] Built target filagui
+[ 99%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/FilamentAsset.cpp.o
+Scanning dependencies of target filamesh
+[ 99%] Building CXX object tools/filamesh/CMakeFiles/filamesh.dir/src/MeshWriter.cpp.o
+[ 99%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/FilamentInstance.cpp.o
+[ 99%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/MaterialProvider.cpp.o
+[ 99%] Building CXX object tools/filamesh/CMakeFiles/filamesh.dir/src/main.cpp.o
+[100%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/ResourceLoader.cpp.o
+[100%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/UbershaderLoader.cpp.o
+[100%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/Wireframe.cpp.o
+[100%] Linking CXX executable filamesh
+[100%] Built target filamesh
+[100%] Building CXX object libs/gltfio/CMakeFiles/gltfio_core.dir/src/Image.cpp.o
+Scanning dependencies of target test_filameshio
+[100%] Building CXX object libs/filameshio/CMakeFiles/test_filameshio.dir/tests/test_filamesh.cpp.o
+[100%] Linking CXX executable test_filameshio
+[100%] Built target test_filameshio
+[100%] Linking CXX static library libgltfio_core.a
+[100%] Built target gltfio_core
+Scanning dependencies of target gltfio
+[100%] Building CXX object libs/gltfio/CMakeFiles/gltfio.dir/src/MaterialGenerator.cpp.o
+[100%] Linking CXX static library libgltfio.a
+[100%] Built target gltfio
+Scanning dependencies of target viewer
+[100%] Building CXX object libs/viewer/CMakeFiles/viewer.dir/src/AutomationEngine.cpp.o
+[100%] Building CXX object libs/viewer/CMakeFiles/viewer.dir/src/Settings.cpp.o
+[100%] Building CXX object libs/viewer/CMakeFiles/viewer.dir/src/AutomationSpec.cpp.o
+[100%] Building CXX object libs/viewer/CMakeFiles/viewer.dir/src/SimpleViewer.cpp.o
+[100%] Linking CXX static library libviewer.a
+[100%] Built target viewer
+Scanning dependencies of target test_settings
+[100%] Building CXX object libs/viewer/CMakeFiles/test_settings.dir/tests/test_settings.cpp.o
+[100%] Linking CXX executable test_settings
+[100%] Built target test_settings
+[ 26%] Performing install step for 'ext_filament'
+[  0%] Built target math
+[  0%] Built target gtest
+[  2%] Built target utils
+[  3%] Built target bluegl
+[  4%] Built target getopt
+[  6%] Built target z
+[  7%] Built target EtcLib
+[  9%] Built target astcenc
+[ 10%] Built target glslminifier
+[ 10%] Built target spirv-cross-msl
+[ 10%] Built target smol-v
+[ 11%] Built target spv-tools-debuginfo
+[ 11%] Built target spv-tools-cldi100
+[ 11%] Built target spv-tools-spv-amd-gs
+[ 11%] Built target spirv-tools-header-OpenCLDebugInfo100
+[ 11%] Built target spv-tools-spv-amd-sevp
+[ 11%] Built target spv-tools-spv-amd-sb
+[ 11%] Built target spv-tools-spv-amd-stm
+[ 11%] Built target spirv-tools-header-DebugInfo
+[ 11%] Built target enum_string_mapping
+[ 11%] Built target core_tables
+[ 11%] Built target OGLCompiler
+[ 11%] Built target glslang-build-info
+[ 11%] Built target OSDependent
+[ 11%] Built target SPVRemapper
+[ 12%] Built target spirv-cross-core
+[ 13%] Built target meshoptimizer
+[ 13%] Built target draco_points_dec
+[ 13%] Built target draco_compression_point_cloud_dec
+[ 13%] Built target draco_point_cloud
+[ 13%] Built target draco_animation
+[ 13%] Built target draco_animation_dec
+[ 13%] Built target draco_metadata
+[ 14%] Built target draco_mesh
+[ 15%] Built target draco_compression_bit_coders
+[ 15%] Built target draco_compression_attributes_dec
+[ 16%] Built target draco_attributes
+[ 17%] Built target draco_compression_mesh_dec
+[ 17%] Built target draco_metadata_dec
+[ 17%] Built target draco_dec_config
+[ 17%] Built target draco_compression_entropy
+[ 18%] Built target draco_io
+[ 19%] Built target draco_core
+[ 19%] Built target draco_compression_decode
+[ 20%] Built target test_math
+[ 21%] Built target mathio
+[ 23%] Built target benchmark
+[ 23%] Built target benchmark_utils_callee
+[ 25%] Built target test_utils
+[ 25%] Built target draco_animation_enc
+[ 25%] Built target draco_metadata_enc
+[ 25%] Built target draco_compression_attributes_pred_schemes_dec
+[ 25%] Built target draco_compression_attributes_pred_schemes_enc
+[ 26%] Built target draco_points_enc
+[ 26%] Built target draco_compression_mesh_traverser
+[ 26%] Built target draco_compression_encode
+[ 26%] Built target draco_enc_config
+[ 27%] Built target draco_compression_attributes_enc
+[ 27%] Built target draco_compression_mesh_enc
+[ 27%] Built target civetweb
+[ 28%] Built target draco_compression_point_cloud_enc
+[ 28%] Built target test_bluegl
+[ 29%] Built target test_glslminifier
+[ 29%] Built target imgui
+[ 29%] Built target specular-color
+[ 30%] Built target filabridge
+[ 30%] Built target camutils
+[ 30%] Built target geometry
+[ 31%] Built target ibl
+[ 31%] Built target resgen
+[ 39%] Built target assimp
+[ 41%] Built target backend
+[ 41%] Built target tinyexr
+[ 41%] Built target image
+[ 53%] Built target sdl2
+[ 55%] Built target png
+[ 55%] Built target extinst_tables
+[ 59%] Built target shaders
+[ 59%] Built target spirv-cross-glsl
+[ 61%] Built target glslang
+[ 61%] Built target benchmark_main
+[ 61%] Built target dracodec
+[ 62%] Built target filamat_lite
+[ 62%] Built target test_camutils
+[ 62%] Built target filaflat
+[ 62%] Built target matdbg_resources
+[ 62%] Built target benchmark_math
+[ 62%] Built target imageio
+[ 63%] Built target SPIRV
+[ 63%] Built target test_filamat_lite
+[ 64%] Built target benchmark_utils
+[ 70%] Built target SPIRV-Tools
+[ 71%] Built target test_cmgen
+[ 71%] Built target cso-lut
+[ 71%] Built target mipgen
+[ 71%] Built target normal-blending
+[ 71%] Built target roughness-prefilter
+[ 72%] Built target cmgen
+[ 73%] Built target test_image
+[ 74%] Built target matdbg
+[ 74%] Built target matinfo
+[ 84%] Built target SPIRV-Tools-opt
+[ 84%] Built target SPIRV-Tools-link
+[ 86%] Built target filamat
+[ 89%] Built target matlang
+[ 89%] Built target SPIRV-Tools-reduce
+[ 89%] Built target test_filamat
+[ 89%] Built target matc
+[ 89%] Built target test_matc
+[ 90%] Built target gltfio_resources_lite
+[ 91%] Built target gltfio_resources
+[ 98%] Built target filament
+[ 98%] Built target filameshio
+[ 98%] Built target benchmark_filament
+[ 98%] Built target test_material_parser
+[ 99%] Built target gltfio_core
+[100%] Built target filagui
+[100%] Built target filamesh
+[100%] Built target gltfio
+[100%] Built target test_filameshio
+[100%] Built target viewer
+[100%] Built target test_settings
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libcamutils.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/camutils
+-- Installing: /home/yan/Open3D/filament-binaries/include/camutils/Bookmark.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/camutils/Manipulator.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/MaterialEnums.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/MaterialChunkType.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libfilabridge.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libfilaflat.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libfilameshio.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/filameshio/MeshReader.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libgeometry.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/geometry
+-- Installing: /home/yan/Open3D/filament-binaries/include/geometry/SurfaceOrientation.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libgltfio.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libgltfio_core.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio/AssetLoader.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio/ResourceLoader.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio/MaterialProvider.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio/FilamentAsset.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio/FilamentInstance.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio/Animator.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/gltfio/Image.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libibl.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/ibl
+-- Installing: /home/yan/Open3D/filament-binaries/include/ibl/CubemapIBL.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/ibl/CubemapSH.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/ibl/utilities.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/ibl/Cubemap.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/ibl/Image.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/ibl/CubemapUtils.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libimage.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/image
+-- Installing: /home/yan/Open3D/filament-binaries/include/image/ColorTransform.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/image/KtxBundle.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/image/LinearImage.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/image/KtxUtility.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/image/ImageOps.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/image/ImageSampler.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/compiler.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/half.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/mat4.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/fast.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/TVecHelpers.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/TMatHelpers.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/vec2.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/mat2.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/vec4.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/scalar.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/mathfwd.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/mat3.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/TQuatHelpers.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/quat.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/vec3.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/math/norm.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/mathio
+-- Installing: /home/yan/Open3D/filament-binaries/include/mathio/ostream.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libutils.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/algorithm.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/bitset.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/Allocator.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/BitmaskEnum.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/compiler.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/CString.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/Entity.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/EntityInstance.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/EntityManager.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/Log.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/memalign.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/Mutex.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/NameComponentManager.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/ostream.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/Path.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/SingleInstanceComponentManager.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/Slice.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/SpinLock.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/StructureOfArrays.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/ThreadLocal.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/unwindows.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/utils/linux/Mutex.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libfilament.a
+-- Up-to-date: /home/yan/Open3D/filament-binaries/include/filament
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/TransformManager.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/RenderTarget.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/FilamentAPI.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Texture.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Material.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/DebugRegistry.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Camera.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/RenderableManager.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Renderer.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Color.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/LightManager.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/SwapChain.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Fence.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Frustum.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/VertexBuffer.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/MaterialInstance.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Exposure.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Box.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Scene.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/TextureSampler.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/ColorGrading.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Skybox.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Engine.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Stream.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/Viewport.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/View.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/IndirectLight.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filament/IndexBuffer.h
+-- Installing: /home/yan/Open3D/filament-binaries/./README.md
+-- Installing: /home/yan/Open3D/filament-binaries/./LICENSE
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libbackend.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/PixelBufferDescriptor.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/DriverEnums.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/PipelineState.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/Handle.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/PresentCallable.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/BufferDescriptor.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/Platform.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/backend/TargetBufferInfo.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libshaders.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/trie/htrie_hash.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/trie/htrie_map.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/trie/htrie_set.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/tsl/robin_growth_policy.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/tsl/robin_hash.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/tsl/robin_map.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/tsl/robin_set.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libsmol-v.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libmeshoptimizer.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libdracodec.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libfilamat.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/filamat
+-- Installing: /home/yan/Open3D/filament-binaries/include/filamat/MaterialBuilder.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filamat/Enums.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filamat/Package.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/filamat/IncludeCallback.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libfilamat_lite.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libmatdbg.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/matdbg
+-- Installing: /home/yan/Open3D/filament-binaries/include/matdbg/ShaderInfo.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/matdbg/TextWriter.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/matdbg/ShaderReplacer.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/matdbg/JsonWriter.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/matdbg/DebugServer.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/matdbg/ShaderExtractor.h
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libbluegl.a
+-- Installing: /home/yan/Open3D/filament-binaries/lib/x86_64/libviewer.a
+-- Installing: /home/yan/Open3D/filament-binaries/include/viewer
+-- Installing: /home/yan/Open3D/filament-binaries/include/viewer/AutomationSpec.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/viewer/AutomationEngine.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/viewer/SimpleViewer.h
+-- Installing: /home/yan/Open3D/filament-binaries/include/viewer/Settings.h
+-- Installing: /home/yan/Open3D/filament-binaries/bin/cmgen
+-- Installing: /home/yan/Open3D/filament-binaries/bin/filamesh
+-- Installing: /home/yan/Open3D/filament-binaries/docs/filamesh.md
+-- Installing: /home/yan/Open3D/filament-binaries/bin/glslminifier
+-- Installing: /home/yan/Open3D/filament-binaries/bin/matc
+-- Installing: /home/yan/Open3D/filament-binaries/bin/matinfo
+-- Installing: /home/yan/Open3D/filament-binaries/docs/matinfo.md
+-- Installing: /home/yan/Open3D/filament-binaries/bin/mipgen
+-- Installing: /home/yan/Open3D/filament-binaries/docs/mipgen.md
+-- Installing: /home/yan/Open3D/filament-binaries/bin/normal-blending
+-- Installing: /home/yan/Open3D/filament-binaries/docs/normal-blending.md
+-- Installing: /home/yan/Open3D/filament-binaries/bin/resgen
+-- Installing: /home/yan/Open3D/filament-binaries/bin/roughness-prefilter
+-- Installing: /home/yan/Open3D/filament-binaries/docs/roughness-prefilter.md
+-- Installing: /home/yan/Open3D/filament-binaries/bin/specular-color
+-- Installing: /home/yan/Open3D/filament-binaries/docs/specular-color.md
+[ 26%] Completed 'ext_filament'
+[ 27%] Built target ext_filament
+Scanning dependencies of target camera
+Scanning dependencies of target geometry
+Scanning dependencies of target core
+Scanning dependencies of target GuiResources
+[ 28%] Generating ../../../../bin/resources/colorMap.filamat
+[ 28%] Building CXX object cpp/open3d/camera/CMakeFiles/camera.dir/PinholeCameraIntrinsic.cpp.o
+[ 28%] Generating ../../../../bin/resources/defaultLit.filamat
+[ 28%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/AdvancedIndexing.cpp.o
+[ 28%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/BoundingVolume.cpp.o
+[ 28%] Generating ../../../../bin/resources/defaultLitSSR.filamat
+[ 29%] Building CXX object cpp/open3d/camera/CMakeFiles/camera.dir/PinholeCameraParameters.cpp.o
+[ 29%] Generating ../../../../bin/resources/defaultLitTransparency.filamat
+[ 29%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/ShapeUtil.cpp.o
+[ 29%] Generating ../../../../bin/resources/defaultUnlit.filamat
+[ 30%] Generating ../../../../bin/resources/defaultUnlitTransparency.filamat
+[ 30%] Generating ../../../../bin/resources/depth.filamat
+[ 30%] Generating ../../../../bin/resources/img_blit.filamat
+[ 30%] Generating ../../../../bin/resources/lines.filamat
+[ 30%] Generating ../../../../bin/resources/normals.filamat
+[ 30%] Generating ../../../../bin/resources/pointcloud.filamat
+[ 31%] Generating ../../../../bin/resources/ui_blit.filamat
+[ 31%] Generating ../../../../bin/resources/unlitBackground.filamat
+[ 31%] Building CXX object cpp/open3d/camera/CMakeFiles/camera.dir/PinholeCameraTrajectory.cpp.o
+[ 31%] Generating ../../../../bin/resources/unlitGradient.filamat
+[ 31%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/EstimateNormals.cpp.o
+[ 31%] Generating ../../../../bin/resources/unlitLine.filamat
+[ 31%] Generating ../../../../bin/resources/unlitPolygonOffset.filamat
+[ 31%] Generating ../../../../bin/resources/unlitSolidColor.filamat
+[ 31%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/CUDAUtils.cpp.o
+[ 31%] Built target GuiResources
+[ 32%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/Dtype.cpp.o
+[ 32%] Built target camera
+[ 32%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/EigenConverter.cpp.o
+[ 32%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/Indexer.cpp.o
+[ 32%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/MemoryManager.cpp.o
+[ 32%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/Geometry3D.cpp.o
+[ 33%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/HalfEdgeTriangleMesh.cpp.o
+[ 33%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/ISSKeypoints.cpp.o
+[ 33%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/MemoryManagerCPU.cpp.o
+[ 34%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/Tensor.cpp.o
+[ 34%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/Image.cpp.o
+[ 34%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/ImageFactory.cpp.o
+[ 34%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/IntersectionTest.cpp.o
+[ 34%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/KDTreeFlann.cpp.o
+[ 35%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/Line3D.cpp.o
+[ 35%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/LineSet.cpp.o
+[ 35%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/LineSetFactory.cpp.o
+[ 35%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/TensorKey.cpp.o
+[ 35%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/MeshBase.cpp.o
+[ 35%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/Octree.cpp.o
+[ 36%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/PointCloud.cpp.o
+[ 36%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/TensorList.cpp.o
+[ 36%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/PointCloudCluster.cpp.o
+[ 36%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/linalg/Matmul.cpp.o
+[ 36%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/PointCloudFactory.cpp.o
+[ 36%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/PointCloudSegmentation.cpp.o
+[ 36%] Building CXX object cpp/open3d/core/CMakeFiles/core.dir/linalg/MatmulCPU.cpp.o
+In file included from /home/yan/Open3D/cpp/open3d/core/linalg/BlasWrapper.h:29:0,
+                 from /home/yan/Open3D/cpp/open3d/core/linalg/MatmulCPU.cpp:27:
+/home/yan/Open3D/cpp/open3d/core/linalg/LinalgHeadersCPU.h:39:10: fatal error: lapacke.h: No such file or directory
+ #include <lapacke.h>
+          ^~~~~~~~~~~
+compilation terminated.
+cpp/open3d/core/CMakeFiles/core.dir/build.make:237: recipe for target 'cpp/open3d/core/CMakeFiles/core.dir/linalg/MatmulCPU.cpp.o' failed
+make[2]: *** [cpp/open3d/core/CMakeFiles/core.dir/linalg/MatmulCPU.cpp.o] Error 1
+CMakeFiles/Makefile2:1440: recipe for target 'cpp/open3d/core/CMakeFiles/core.dir/all' failed
+make[1]: *** [cpp/open3d/core/CMakeFiles/core.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 36%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/Qhull.cpp.o
+[ 36%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/RGBDImage.cpp.o
+[ 37%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/RGBDImageFactory.cpp.o
+[ 37%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/SurfaceReconstructionAlphaShape.cpp.o
+[ 37%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/SurfaceReconstructionBallPivoting.cpp.o
+[ 37%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/SurfaceReconstructionPoisson.cpp.o
+[ 37%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/TetraMesh.cpp.o
+[ 37%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/TetraMeshFactory.cpp.o
+[ 38%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/TriangleMesh.cpp.o
+[ 38%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/TriangleMeshDeformation.cpp.o
+[ 38%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/TriangleMeshFactory.cpp.o
+[ 38%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/TriangleMeshSimplification.cpp.o
+[ 38%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/TriangleMeshSubdivide.cpp.o
+[ 38%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/VoxelGrid.cpp.o
+[ 39%] Building CXX object cpp/open3d/geometry/CMakeFiles/geometry.dir/VoxelGridFactory.cpp.o
+[ 39%] Built target geometry
+Makefile:148: recipe for target 'all' failed
+make: *** [all] Error 2
+

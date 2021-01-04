@@ -1,0 +1,2 @@
+Invoking command in '/home/yan/camps_ws/build/realsense_ros2_camera': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/yan/camps_ws/build/realsense_ros2_camera' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,116 @@
+[0.207s] Invoking command in '/home/yan/camps_ws/build/realsense_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs -- -j4 -l4
+[0.682s] [ 10%] Built target realsense_camera_msgs__rosidl_generator_c
+[0.709s] [ 13%] Built target realsense_camera_msgs__cpp
+[0.931s] [ 24%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.956s] [ 35%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_c
+[0.958s] [ 45%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[1.140s] [ 56%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c
+[1.312s] [ 67%] Built target realsense_camera_msgs__rosidl_typesupport_cpp
+[1.499s] [ 78%] Built target realsense_camera_msgs__rosidl_typesupport_c
+[1.621s] [ 78%] Built target realsense_camera_msgs
+[1.737s] [ 81%] Built target realsense_camera_msgs__py
+[1.920s] [ 89%] Built target realsense_camera_msgs__python
+[2.183s] [ 94%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.250s] [100%] Built target realsense_camera_msgs__rosidl_typesupport_c__pyext
+[2.357s] Invoked command in '/home/yan/camps_ws/build/realsense_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs -- -j4 -l4
+[3.059s] Invoking command in '/home/yan/camps_ws/build/realsense_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs --target install -- -j4 -l4
+[3.558s] [  2%] Built target realsense_camera_msgs__cpp
+[3.581s] [ 13%] Built target realsense_camera_msgs__rosidl_generator_c
+[3.780s] [ 24%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_cpp
+[3.826s] [ 35%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[3.974s] [ 45%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_c
+[4.106s] [ 56%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c
+[4.236s] [ 67%] Built target realsense_camera_msgs__rosidl_typesupport_cpp
+[4.352s] [ 78%] Built target realsense_camera_msgs__rosidl_typesupport_c
+[4.488s] [ 78%] Built target realsense_camera_msgs
+[4.607s] [ 81%] Built target realsense_camera_msgs__py
+[4.795s] [ 89%] Built target realsense_camera_msgs__python
+[5.045s] [ 94%] Built target realsense_camera_msgs__rosidl_typesupport_c__pyext
+[5.063s] [100%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.189s] [36mInstall the project...[0m
+[5.257s] -- Install configuration: ""
+[5.258s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense_camera_msgs
+[5.260s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_c.so
+[5.263s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/library_path.sh
+[5.272s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_cpp.so
+[5.278s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[5.280s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[5.281s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.282s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h
+[5.283s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h
+[5.288s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[5.288s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[5.289s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[5.290s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__functions.c
+[5.291s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__struct.h
+[5.292s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__functions.c
+[5.292s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics.h
+[5.293s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__functions.h
+[5.294s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__functions.h
+[5.294s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.h
+[5.295s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.296s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__struct.h
+[5.297s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info.h
+[5.304s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.h
+[5.305s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_generator_c.so
+[5.306s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[5.307s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[5.319s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.320s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.321s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/dds_fastrtps
+[5.321s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[5.322s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.323s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[5.324s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[5.324s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info.hpp
+[5.329s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__traits.hpp
+[5.332s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__struct.hpp
+[5.333s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__traits.hpp
+[5.334s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics.hpp
+[5.335s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__struct.hpp
+[5.335s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[5.336s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[5.337s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h
+[5.338s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h
+[5.346s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.c
+[5.348s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.c
+[5.355s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.356s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_c.so
+[5.357s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[5.357s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[5.358s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[5.359s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[5.359s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.cpp
+[5.360s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.cpp
+[5.361s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[5.361s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/pythonpath.sh
+[5.362s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/__init__.py
+[5.538s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg
+[5.540s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_imu_info_s.c
+[5.542s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_extrinsics.py
+[5.543s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/__init__.py
+[5.544s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_extrinsics_s.c
+[5.544s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_imu_info.py
+[5.545s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[5.548s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[5.549s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__python.so
+[5.557s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/IMUInfo.idl
+[5.558s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/Extrinsics.idl
+[5.559s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/IMUInfo.msg
+[5.559s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/Extrinsics.msg
+[5.562s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense_camera_msgs
+[5.564s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense_camera_msgs
+[5.565s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/ament_prefix_path.sh
+[5.566s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/path.sh
+[5.566s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.bash
+[5.567s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.sh
+[5.576s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.zsh
+[5.577s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/packages/realsense_camera_msgs
+[5.578s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[5.578s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.579s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.580s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.581s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/realsense_camera_msgsConfig.cmake
+[5.583s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/realsense_camera_msgsConfig-version.cmake
+[5.597s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/package.xml
+[5.599s] Invoked command in '/home/yan/camps_ws/build/realsense_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs --target install -- -j4 -l4

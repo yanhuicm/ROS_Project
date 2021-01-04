@@ -1,0 +1,7 @@
+[0.223s] Invoking command in '/home/yan/camps_ws/build/Open3D': /usr/bin/cmake /home/yan/camps_ws/src/Open3D -DCMAKE_INSTALL_PREFIX=/home/yan/camps_ws/install/Open3D
+[0.389s] CMake Error at CMakeLists.txt:10 (cmake_minimum_required):
+[0.390s]   CMake 3.17 or higher is required.  You are running version 3.10.2
+[0.391s] 
+[0.391s] 
+[0.392s] -- Configuring incomplete, errors occurred!
+[1.682s] Invoked command in '/home/yan/camps_ws/build/Open3D' returned '1': /usr/bin/cmake /home/yan/camps_ws/src/Open3D -DCMAKE_INSTALL_PREFIX=/home/yan/camps_ws/install/Open3D

@@ -1,0 +1,87 @@
+[1.920s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--base-paths', 'src/ros2_intel_realsense']
+[1.921s] DEBUG:colcon:Parsed command line arguments: Namespace(abort_on_error=False, base_paths=['src/ros2_intel_realsense'], build_base='build', ctest_args=None, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7f9238c320>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, pytest_args=None, pytest_with_coverage=False, python_testing=None, retest_until_fail=0, retest_until_pass=0, return_code_on_test_failure=False, test_result_base=None, unittest_args=None, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7f9238c320>, verb_name='test', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f923960f0>)
+[2.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.066s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yan/camps_ws/src/ros2_intel_realsense'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['ignore', 'ignore_ament_install']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'ignore'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'ignore_ament_install'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['colcon_pkg']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'colcon_pkg'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['colcon_meta']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'colcon_meta'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['ros']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'ros'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['cmake', 'python']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'cmake'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'python'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['python_setup_py']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'python_setup_py'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extension 'ignore'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extension 'ignore_ament_install'
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extensions ['colcon_pkg']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extension 'colcon_pkg'
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extensions ['colcon_meta']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extension 'colcon_meta'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extensions ['ros']
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_camera_msgs) by extension 'ros'
+[2.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_intel_realsense/realsense_camera_msgs' with type 'ros.ament_cmake' and name 'realsense_camera_msgs'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extensions ['ignore', 'ignore_ament_install']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extension 'ignore'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extension 'ignore_ament_install'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extensions ['colcon_pkg']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extension 'colcon_pkg'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extensions ['colcon_meta']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extension 'colcon_meta'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extensions ['ros']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros2_camera) by extension 'ros'
+[2.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_intel_realsense/realsense_ros2_camera' with type 'ros.ament_cmake' and name 'realsense_ros2_camera'
+[2.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'realsense_camera_msgs' test argument 'ctest_args' from command line to 'None'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'realsense_camera_msgs' test argument 'python_testing' from command line to 'None'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'realsense_camera_msgs' test argument 'pytest_args' from command line to 'None'
+[2.370s] Level 5:colcon.colcon_core.verb:set package 'realsense_camera_msgs' test argument 'pytest_with_coverage' from command line to 'False'
+[2.370s] Level 5:colcon.colcon_core.verb:set package 'realsense_camera_msgs' test argument 'unittest_args' from command line to 'None'
+[2.370s] Level 5:colcon.colcon_core.verb:set package 'realsense_camera_msgs' test argument 'retest_until_pass' from command line to '0'
+[2.370s] Level 5:colcon.colcon_core.verb:set package 'realsense_camera_msgs' test argument 'retest_until_fail' from command line to '0'
+[2.370s] DEBUG:colcon.colcon_core.verb.test:Testing package 'realsense_camera_msgs' with the following arguments: {'build_base': '/home/yan/camps_ws/build/realsense_camera_msgs', 'ctest_args': None, 'install_base': '/home/yan/camps_ws/install/realsense_camera_msgs', 'path': '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros2_camera' test argument 'ctest_args' from command line to 'None'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros2_camera' test argument 'python_testing' from command line to 'None'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros2_camera' test argument 'pytest_args' from command line to 'None'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros2_camera' test argument 'pytest_with_coverage' from command line to 'False'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros2_camera' test argument 'unittest_args' from command line to 'None'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros2_camera' test argument 'retest_until_pass' from command line to '0'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros2_camera' test argument 'retest_until_fail' from command line to '0'
+[2.394s] DEBUG:colcon.colcon_core.verb.test:Testing package 'realsense_ros2_camera' with the following arguments: {'build_base': '/home/yan/camps_ws/build/realsense_ros2_camera', 'ctest_args': None, 'install_base': '/home/yan/camps_ws/install/realsense_ros2_camera', 'path': '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[2.397s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.410s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs' with build type 'ament_cmake'
+[2.411s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs'
+[2.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.468s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/yan/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[2.470s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yan/ros2_ws/install/realsense_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.471s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yan/ros2_ws/install/realsense_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.483s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[2.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yan/camps_ws/build/realsense_camera_msgs': CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/ros2_ws/install/realsense_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[71.204s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera' with build type 'ament_cmake'
+[71.205s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera'
+[71.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yan/camps_ws/build/realsense_camera_msgs' returned '8': CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/ros2_ws/install/realsense_msgs /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[71.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[71.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[71.253s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[71.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yan/camps_ws/build/realsense_ros2_camera': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[95.380s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[95.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[95.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[95.383s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[95.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yan/camps_ws/build/realsense_ros2_camera' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[95.440s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[95.441s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[95.442s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[95.668s] DEBUG:colcon.colcon_core.event_reactor:joined thread

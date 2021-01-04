@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_py.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_c.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics_s.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info_s.c'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_py.xunit.xml'

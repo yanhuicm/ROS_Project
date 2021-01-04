@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20201220-0759-Experimental"
+	Name="yan-desktop"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.5.0"
+	OSName="Linux"
+	Hostname="yan-desktop"
+	OSRelease="4.9.140-tegra"
+	OSVersion="#1 SMP PREEMPT Tue Oct 27 21:02:37 PDT 2020"
+	OSPlatform="aarch64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="8"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="1982"
+	TotalPhysicalMemory="3964"
+	LogicalProcessorsPerPhysical="4"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Dec 20 15:59 +08</StartDateTime>
+		<StartTestTime>1608451181</StartTestTime>
+		<TestList>
+			<Test>./copyright</Test>
+			<Test>./cppcheck</Test>
+			<Test>./cpplint</Test>
+			<Test>./flake8</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./pep257</Test>
+			<Test>./uncrustify</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/copyright.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_copyright/copyright.txt" "--command" "/opt/ros/dashing/bin/ament_copyright" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.51568</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/copyright.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_copyright/copyright.txt" "--command" "/opt/ros/dashing/bin/ament_copyright" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_copyright --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/copyright.xunit.xml
+No problems found, checked 6 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>cppcheck</Name>
+			<Path>.</Path>
+			<FullName>./cppcheck</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cppcheck.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cppcheck.xunit.xml" "--include_dirs" "/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>3.31125</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cppcheck.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cppcheck.xunit.xml" "--include_dirs" "/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cppcheck.xunit.xml --include_dirs /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cppcheck.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cppcheck</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>cpplint</Name>
+			<Path>.</Path>
+			<FullName>./cpplint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_cpplint/cpplint.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>4.25517</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_cpplint/cpplint.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml
+/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp:181:  Lines should be &lt;= 100 characters long  [whitespace/line_length] [2]
+Category 'whitespace/line_length' errors found: 1
+Total errors found: 1
+Using '--root=/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include' argument
+
+Done processing /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include/realsense_ros2_camera/constants.hpp
+
+Using '--root=/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src' argument
+
+Done processing /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp
+
+Using '--root=/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/test' argument
+
+Done processing /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/test/test_api.cpp
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cpplint</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>flake8</Name>
+			<Path>.</Path>
+			<FullName>./flake8</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_flake8/flake8.txt" "--command" "/opt/ros/dashing/bin/ament_flake8" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>3.08722</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_flake8/flake8.txt" "--command" "/opt/ros/dashing/bin/ament_flake8" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_flake8 --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml
+Traceback (most recent call last):
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 157, in load_plugin
+    self._load()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 134, in _load
+    self._plugin = self.entry_point.load()
+  File "/home/yan/.local/lib/python3.6/site-packages/importlib_metadata/__init__.py", line 98, in load
+    return functools.reduce(getattr, attrs, module)
+AttributeError: module 'pycodestyle' has no attribute 'break_around_binary_operator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/dashing/bin/ament_flake8", line 11, in &lt;module&gt;
+    load_entry_point('ament-flake8==0.7.12', 'console_scripts', 'ament_flake8')()
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 75, in main
+    max_line_length=args.linelength)
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 176, in generate_flake8_report
+    style = get_flake8_style_guide(flake8_argv)
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 140, in get_flake8_style_guide
+    application.find_plugins(config_finder)
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/main/application.py", line 159, in find_plugins
+    self.check_plugins.load_plugins()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 415, in load_plugins
+    plugins = list(self.manager.map(load_plugin))
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 302, in map
+    yield func(self.plugins[name], *args, **kwargs)
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 413, in load_plugin
+    return plugin.load_plugin()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 164, in load_plugin
+    raise failed_to_load
+flake8.exceptions.FailedToLoadPlugin: Flake8 failed to load plugin "pycodestyle.break_around_binary_operator" due to module 'pycodestyle' has no attribute 'break_around_binary_operator'.
+-- run_test.py: return code 1
+-- run_test.py: generate result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>flake8</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/dashing/bin/ament_lint_cmake" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.81901</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/dashing/bin/ament_lint_cmake" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_lint_cmake --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_pep257/pep257.txt" "--command" "/opt/ros/dashing/bin/ament_pep257" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.19243</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_pep257/pep257.txt" "--command" "/opt/ros/dashing/bin/ament_pep257" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_pep257 --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml
+checking ./launch/realsense2_to_laserscan.py
+checking ./launch/ros2_intel_realsense.launch.py
+checking ./launch/rs.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/uncrustify.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>3.05023</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/uncrustify.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/uncrustify.xunit.xml
+Code style divergence in file 'src/realsense_camera_node.cpp':
+
+--- src/realsense_camera_node.cpp
++++ src/realsense_camera_node.cpp.uncrustify
+@@ -181 +181,3 @@
+-    timer_ = this-&gt;create_wall_timer(std::chrono::seconds(1), std::bind(&amp;RealSenseCameraNode::publishStaticTransforms, this));
++    timer_ =
++      this-&gt;create_wall_timer(std::chrono::seconds(1),
++        std::bind(&amp;RealSenseCameraNode::publishStaticTransforms, this));
+
+1 files with code style divergence
+No code style divergence in file 'include/realsense_ros2_camera/constants.hpp'
+
+No code style divergence in file 'test/test_api.cpp'
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/uncrustify.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/xmllint.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_xmllint/xmllint.txt" "--command" "/opt/ros/dashing/bin/ament_xmllint" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>3.57166</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/xmllint.xunit.xml" "--package-name" "realsense_ros2_camera" "--output-file" "/home/yan/camps_ws/build/realsense_ros2_camera/ament_xmllint/xmllint.txt" "--command" "/opt/ros/dashing/bin/ament_xmllint" "--xunit-file" "/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_xmllint --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Dec 20 16:00 +08</EndDateTime>
+		<EndTestTime>1608451205</EndTestTime>
+		<ElapsedMinutes>0.3</ElapsedMinutes>
+	</Testing>
+</Site>

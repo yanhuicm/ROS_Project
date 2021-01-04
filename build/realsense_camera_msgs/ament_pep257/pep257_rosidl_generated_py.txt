@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_pep257 --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/pep257_rosidl_generated_py.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/__init__.py
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/__init__.py
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics.py
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/pep257_rosidl_generated_py.xunit.xml'

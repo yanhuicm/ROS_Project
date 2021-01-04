@@ -1,0 +1,40 @@
+[2.094s] Invoking command in '/home/yan/camps_ws/src/py_pubsub': PYTHONPATH=/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/yan/camps_ws/build/py_pubsub/build install --prefix /home/yan/camps_ws/install/py_pubsub --record /home/yan/camps_ws/build/py_pubsub/install.log --single-version-externally-managed
+[3.811s] running egg_info
+[3.815s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[3.818s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[3.820s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[3.821s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[3.821s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[4.072s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.080s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.081s] running build
+[4.082s] running build_py
+[4.083s] copying py_pubsub/subscriber_member_function_infra2.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[4.084s] copying py_pubsub/publisher_member_function.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[4.088s] copying py_pubsub/subscriber_member_function_color.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[4.091s] copying py_pubsub/subscriber_member_function.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[4.093s] copying py_pubsub/subscriber_member_function_depth.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[4.093s] copying py_pubsub/subscriber_member_function_infra1.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[4.094s] running install
+[4.096s] running install_lib
+[4.103s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_infra2.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[4.104s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[4.105s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_color.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[4.109s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[4.110s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_depth.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[4.110s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_infra1.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[4.123s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_infra2.py to subscriber_member_function_infra2.cpython-36.pyc
+[4.124s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-36.pyc
+[4.125s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_color.py to subscriber_member_function_color.cpython-36.pyc
+[4.125s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc
+[4.126s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_depth.py to subscriber_member_function_depth.cpython-36.pyc
+[4.126s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_infra1.py to subscriber_member_function_infra1.cpython-36.pyc
+[4.126s] running install_data
+[4.165s] running install_egg_info
+[4.177s] removing '/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)
+[4.181s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info
+[4.187s] running install_scripts
+[4.301s] Installing listener script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[4.302s] Installing talker script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[4.305s] writing list of installed files to '/home/yan/camps_ws/build/py_pubsub/install.log'
+[4.425s] Invoked command in '/home/yan/camps_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/yan/camps_ws/build/py_pubsub/build install --prefix /home/yan/camps_ws/install/py_pubsub --record /home/yan/camps_ws/build/py_pubsub/install.log --single-version-externally-managed

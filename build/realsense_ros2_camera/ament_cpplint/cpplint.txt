@@ -1,0 +1,22 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml
+
+/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp:181:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+Category 'whitespace/line_length' errors found: 1
+Total errors found: 1
+Using '--root=/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include' argument
+
+Done processing /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include/realsense_ros2_camera/constants.hpp
+
+Using '--root=/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src' argument
+
+Done processing /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp
+
+Using '--root=/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/test' argument
+
+Done processing /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/test/test_api.cpp
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/cpplint.xunit.xml'

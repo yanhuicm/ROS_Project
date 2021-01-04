@@ -1,0 +1,821 @@
+Start testing: Dec 20 15:58 +08
+----------------------------------------------------------
+1/29 Testing: cppcheck_rosidl_typesupport_c
+1/29 Test: cppcheck_rosidl_typesupport_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_c.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_c.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_typesupport_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_c.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_c.xunit.xml'
+<end of output>
+Test time =   1.91 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_c" end time: Dec 20 15:58 +08
+"cppcheck_rosidl_typesupport_c" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/29 Testing: cpplint_rosidl_typesupport_c
+2/29 Test: cpplint_rosidl_typesupport_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_typesupport_c.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_c.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_typesupport_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_c.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs/msg/extrinsics__type_support.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs/msg/imu_info__type_support.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs/msg/rosidl_typesupport_c__visibility_control.h
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_c.xunit.xml'
+<end of output>
+Test time =   2.11 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_c" end time: Dec 20 15:58 +08
+"cpplint_rosidl_typesupport_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/29 Testing: uncrustify_rosidl_typesupport_c
+3/29 Test: uncrustify_rosidl_typesupport_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_c.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_c.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_typesupport_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_c.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs/msg/extrinsics__type_support.cpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs/msg/imu_info__type_support.cpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_c/realsense_camera_msgs/msg/rosidl_typesupport_c__visibility_control.h'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_c.xunit.xml'
+<end of output>
+Test time =   1.99 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_c" end time: Dec 20 15:58 +08
+"uncrustify_rosidl_typesupport_c" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/29 Testing: cppcheck_rosidl_typesupport_cpp
+4/29 Test: cppcheck_rosidl_typesupport_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_typesupport_cpp" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml'
+<end of output>
+Test time =   1.92 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_cpp" end time: Dec 20 15:58 +08
+"cppcheck_rosidl_typesupport_cpp" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/29 Testing: cpplint_rosidl_typesupport_cpp
+5/29 Test: cpplint_rosidl_typesupport_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_typesupport_cpp" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml'
+<end of output>
+Test time =   2.18 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_cpp" end time: Dec 20 15:58 +08
+"cpplint_rosidl_typesupport_cpp" time elapsed: 00:00:02
+----------------------------------------------------------
+
+6/29 Testing: uncrustify_rosidl_typesupport_cpp
+6/29 Test: uncrustify_rosidl_typesupport_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_typesupport_cpp" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml'
+<end of output>
+Test time =   2.07 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_cpp" end time: Dec 20 15:58 +08
+"uncrustify_rosidl_typesupport_cpp" time elapsed: 00:00:02
+----------------------------------------------------------
+
+7/29 Testing: cppcheck_rosidl_typesupport_fastrtps_c
+7/29 Test: cppcheck_rosidl_typesupport_fastrtps_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_typesupport_fastrtps_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml'
+<end of output>
+Test time =   2.40 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_fastrtps_c" end time: Dec 20 15:58 +08
+"cppcheck_rosidl_typesupport_fastrtps_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+8/29 Testing: cpplint_rosidl_typesupport_fastrtps_c
+8/29 Test: cpplint_rosidl_typesupport_fastrtps_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_typesupport_fastrtps_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml'
+<end of output>
+Test time =   2.77 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_fastrtps_c" end time: Dec 20 15:58 +08
+"cpplint_rosidl_typesupport_fastrtps_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+9/29 Testing: uncrustify_rosidl_typesupport_fastrtps_c
+9/29 Test: uncrustify_rosidl_typesupport_fastrtps_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_typesupport_fastrtps_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml'
+<end of output>
+Test time =   2.62 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_fastrtps_c" end time: Dec 20 15:58 +08
+"uncrustify_rosidl_typesupport_fastrtps_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+10/29 Testing: cppcheck_rosidl_generated_c
+10/29 Test: cppcheck_rosidl_generated_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_generated_c.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_c.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_generated_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_c.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_c.xunit.xml'
+<end of output>
+Test time =   1.95 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_generated_c" end time: Dec 20 15:58 +08
+"cppcheck_rosidl_generated_c" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/29 Testing: cpplint_rosidl_generated_c
+11/29 Test: cpplint_rosidl_generated_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_generated_c.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_c.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_generated_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_c.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__struct.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__type_support.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__struct.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__type_support.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_c.xunit.xml'
+<end of output>
+Test time =   3.37 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_generated_c" end time: Dec 20 15:58 +08
+"cpplint_rosidl_generated_c" time elapsed: 00:00:03
+----------------------------------------------------------
+
+12/29 Testing: uncrustify_rosidl_generated_c
+12/29 Test: uncrustify_rosidl_generated_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_generated_c.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_c.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_generated_c" start time: Dec 20 15:58 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_c.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__struct.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__type_support.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__struct.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__type_support.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/rosidl_generator_c__visibility_control.h'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_c.xunit.xml'
+<end of output>
+Test time =   2.34 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_generated_c" end time: Dec 20 15:59 +08
+"uncrustify_rosidl_generated_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+13/29 Testing: cppcheck_rosidl_typesupport_fastrtps_cpp
+13/29 Test: cppcheck_rosidl_typesupport_fastrtps_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_typesupport_fastrtps_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml'
+<end of output>
+Test time =   2.23 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_fastrtps_cpp" end time: Dec 20 15:59 +08
+"cppcheck_rosidl_typesupport_fastrtps_cpp" time elapsed: 00:00:02
+----------------------------------------------------------
+
+14/29 Testing: cpplint_rosidl_typesupport_fastrtps_cpp
+14/29 Test: cpplint_rosidl_typesupport_fastrtps_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_typesupport_fastrtps_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml'
+<end of output>
+Test time =   2.97 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_fastrtps_cpp" end time: Dec 20 15:59 +08
+"cpplint_rosidl_typesupport_fastrtps_cpp" time elapsed: 00:00:02
+----------------------------------------------------------
+
+15/29 Testing: uncrustify_rosidl_typesupport_fastrtps_cpp
+15/29 Test: uncrustify_rosidl_typesupport_fastrtps_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_typesupport_fastrtps_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml'
+<end of output>
+Test time =   2.26 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_fastrtps_cpp" end time: Dec 20 15:59 +08
+"uncrustify_rosidl_typesupport_fastrtps_cpp" time elapsed: 00:00:02
+----------------------------------------------------------
+
+16/29 Testing: cppcheck_rosidl_generated_cpp
+16/29 Test: cppcheck_rosidl_generated_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_generated_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_cpp.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_generated_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_cpp.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_cpp.xunit.xml'
+<end of output>
+Test time =   2.26 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_generated_cpp" end time: Dec 20 15:59 +08
+"cppcheck_rosidl_generated_cpp" time elapsed: 00:00:02
+----------------------------------------------------------
+
+17/29 Testing: cpplint_rosidl_generated_cpp
+17/29 Test: cpplint_rosidl_generated_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_generated_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_cpp.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_generated_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_cpp.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__struct.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__traits.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__struct.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__traits.hpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_cpp.xunit.xml'
+<end of output>
+Test time =   3.09 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_generated_cpp" end time: Dec 20 15:59 +08
+"cpplint_rosidl_generated_cpp" time elapsed: 00:00:03
+----------------------------------------------------------
+
+18/29 Testing: uncrustify_rosidl_generated_cpp
+18/29 Test: uncrustify_rosidl_generated_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_generated_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_cpp.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_generated_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_cpp.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__struct.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__traits.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__struct.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__traits.hpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_cpp.xunit.xml'
+<end of output>
+Test time =   1.90 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_generated_cpp" end time: Dec 20 15:59 +08
+"uncrustify_rosidl_generated_cpp" time elapsed: 00:00:01
+----------------------------------------------------------
+
+19/29 Testing: cppcheck_rosidl_typesupport_introspection_c
+19/29 Test: cppcheck_rosidl_typesupport_introspection_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_typesupport_introspection_c" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml'
+<end of output>
+Test time =   1.96 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_introspection_c" end time: Dec 20 15:59 +08
+"cppcheck_rosidl_typesupport_introspection_c" time elapsed: 00:00:01
+----------------------------------------------------------
+
+20/29 Testing: cpplint_rosidl_typesupport_introspection_c
+20/29 Test: cpplint_rosidl_typesupport_introspection_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_typesupport_introspection_c" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__type_support.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__type_support.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml'
+<end of output>
+Test time =   2.44 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_introspection_c" end time: Dec 20 15:59 +08
+"cpplint_rosidl_typesupport_introspection_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+21/29 Testing: uncrustify_rosidl_typesupport_introspection_c
+21/29 Test: uncrustify_rosidl_typesupport_introspection_c
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_typesupport_introspection_c" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__type_support.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__type_support.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml'
+<end of output>
+Test time =   1.95 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_introspection_c" end time: Dec 20 15:59 +08
+"uncrustify_rosidl_typesupport_introspection_c" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/29 Testing: cppcheck_rosidl_typesupport_introspection_cpp
+22/29 Test: cppcheck_rosidl_typesupport_introspection_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_typesupport_introspection_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml'
+<end of output>
+Test time =   1.88 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_introspection_cpp" end time: Dec 20 15:59 +08
+"cppcheck_rosidl_typesupport_introspection_cpp" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/29 Testing: cpplint_rosidl_typesupport_introspection_cpp
+23/29 Test: cpplint_rosidl_typesupport_introspection_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_typesupport_introspection_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_cpp.hpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml'
+<end of output>
+Test time =   2.55 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_introspection_cpp" end time: Dec 20 15:59 +08
+"cpplint_rosidl_typesupport_introspection_cpp" time elapsed: 00:00:02
+----------------------------------------------------------
+
+24/29 Testing: uncrustify_rosidl_typesupport_introspection_cpp
+24/29 Test: uncrustify_rosidl_typesupport_introspection_cpp
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_typesupport_introspection_cpp" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_cpp.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_cpp.hpp'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml'
+<end of output>
+Test time =   1.86 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_introspection_cpp" end time: Dec 20 15:59 +08
+"uncrustify_rosidl_typesupport_introspection_cpp" time elapsed: 00:00:01
+----------------------------------------------------------
+
+25/29 Testing: cppcheck_rosidl_generated_py
+25/29 Test: cppcheck_rosidl_generated_py
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_py.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cppcheck/cppcheck_rosidl_generated_py.txt" "--command" "/opt/ros/dashing/bin/ament_cppcheck" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_py.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cppcheck_rosidl_generated_py" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_py.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   1.93 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_generated_py" end time: Dec 20 15:59 +08
+"cppcheck_rosidl_generated_py" time elapsed: 00:00:01
+----------------------------------------------------------
+
+26/29 Testing: cpplint_rosidl_generated_py
+26/29 Test: cpplint_rosidl_generated_py
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_py.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_cpplint/cpplint_rosidl_generated_py.txt" "--command" "/opt/ros/dashing/bin/ament_cpplint" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_py.xunit.xml" "--filters=-readability/fn_size" "--linelength" "999" "--root" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"cpplint_rosidl_generated_py" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_py.xunit.xml --filters=-readability/fn_size --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_c.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics_s.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info_s.c
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   3.18 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_generated_py" end time: Dec 20 15:59 +08
+"cpplint_rosidl_generated_py" time elapsed: 00:00:03
+----------------------------------------------------------
+
+27/29 Testing: flake8_rosidl_generated_py
+27/29 Test: flake8_rosidl_generated_py
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/flake8_rosidl_generated_py.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_flake8/flake8_rosidl_generated_py.txt" "--command" "/opt/ros/dashing/bin/ament_flake8" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/flake8_rosidl_generated_py.xunit.xml" "--linelength" "999" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"flake8_rosidl_generated_py" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_flake8 --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/flake8_rosidl_generated_py.xunit.xml --linelength 999 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+Traceback (most recent call last):
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 157, in load_plugin
+    self._load()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 134, in _load
+    self._plugin = self.entry_point.load()
+  File "/home/yan/.local/lib/python3.6/site-packages/importlib_metadata/__init__.py", line 98, in load
+    return functools.reduce(getattr, attrs, module)
+AttributeError: module 'pycodestyle' has no attribute 'break_around_binary_operator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/dashing/bin/ament_flake8", line 11, in <module>
+    load_entry_point('ament-flake8==0.7.12', 'console_scripts', 'ament_flake8')()
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 75, in main
+    max_line_length=args.linelength)
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 176, in generate_flake8_report
+    style = get_flake8_style_guide(flake8_argv)
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 140, in get_flake8_style_guide
+    application.find_plugins(config_finder)
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/main/application.py", line 159, in find_plugins
+    self.check_plugins.load_plugins()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 415, in load_plugins
+    plugins = list(self.manager.map(load_plugin))
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 302, in map
+    yield func(self.plugins[name], *args, **kwargs)
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 413, in load_plugin
+    return plugin.load_plugin()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 164, in load_plugin
+    raise failed_to_load
+flake8.exceptions.FailedToLoadPlugin: Flake8 failed to load plugin "pycodestyle.break_around_binary_operator" due to module 'pycodestyle' has no attribute 'break_around_binary_operator'.
+-- run_test.py: return code 1
+-- run_test.py: generate result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/flake8_rosidl_generated_py.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/flake8_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   3.26 sec
+----------------------------------------------------------
+Test Failed.
+"flake8_rosidl_generated_py" end time: Dec 20 15:59 +08
+"flake8_rosidl_generated_py" time elapsed: 00:00:03
+----------------------------------------------------------
+
+28/29 Testing: pep257_rosidl_generated_py
+28/29 Test: pep257_rosidl_generated_py
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/pep257_rosidl_generated_py.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_pep257/pep257_rosidl_generated_py.txt" "--command" "/opt/ros/dashing/bin/ament_pep257" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/pep257_rosidl_generated_py.xunit.xml" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"pep257_rosidl_generated_py" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_pep257 --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/pep257_rosidl_generated_py.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/__init__.py
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/__init__.py
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics.py
+checking /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/pep257_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   2.68 sec
+----------------------------------------------------------
+Test Passed.
+"pep257_rosidl_generated_py" end time: Dec 20 15:59 +08
+"pep257_rosidl_generated_py" time elapsed: 00:00:02
+----------------------------------------------------------
+
+29/29 Testing: uncrustify_rosidl_generated_py
+29/29 Test: uncrustify_rosidl_generated_py
+Command: "/usr/bin/python3" "-u" "/opt/ros/dashing/share/ament_cmake_test/cmake/run_test.py" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_py.xunit.xml" "--package-name" "realsense_camera_msgs" "--output-file" "/home/yan/camps_ws/build/realsense_camera_msgs/ament_uncrustify/uncrustify_rosidl_generated_py.txt" "--command" "/opt/ros/dashing/bin/ament_uncrustify" "--xunit-file" "/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_py.xunit.xml" "--linelength" "0" "/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs"
+Directory: /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs
+"uncrustify_rosidl_generated_py" start time: Dec 20 15:59 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_uncrustify --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_py.xunit.xml --linelength 0 /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_c.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics_s.c'
+
+No code style divergence in file '/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info_s.c'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/uncrustify_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   2.09 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_generated_py" end time: Dec 20 15:59 +08
+"uncrustify_rosidl_generated_py" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Dec 20 15:59 +08
+
+cppcheck =  18.43 sec*proc
+
+cpplint =  24.65 sec*proc
+
+flake8 =   3.26 sec*proc
+
+linter =  68.10 sec*proc
+
+pep257 =   2.68 sec*proc
+
+uncrustify =  19.07 sec*proc
+

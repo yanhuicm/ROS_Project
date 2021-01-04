@@ -1,0 +1,27 @@
+[0.145s] Invoking command in '/home/yan/camps_ws/build/realsense_ros2_camera': CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /home/yan/.local/bin/cmake --build /home/yan/camps_ws/build/realsense_ros2_camera -- -j4 -l4
+[1.441s] [100%] Built target realsense_ros2_camera
+[1.619s] Invoked command in '/home/yan/camps_ws/build/realsense_ros2_camera' returned '0': CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /home/yan/.local/bin/cmake --build /home/yan/camps_ws/build/realsense_ros2_camera -- -j4 -l4
+[2.673s] Invoking command in '/home/yan/camps_ws/build/realsense_ros2_camera': CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /home/yan/.local/bin/cmake --install /home/yan/camps_ws/build/realsense_ros2_camera
+[3.200s] -- Install configuration: ""
+[3.210s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/bin/realsense_ros2_camera
+[3.213s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/lib/realsense_ros2_camera/realsense_ros2_camera
+[3.216s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include
+[3.222s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include/realsense_ros2_camera
+[3.224s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include/realsense_ros2_camera/constants.hpp
+[3.226s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch
+[3.227s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/realsense2_to_laserscan.py
+[3.231s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/default.rviz
+[3.232s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/ros2_intel_realsense.launch.py
+[3.233s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/rs.launch.py
+[3.235s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/package_run_dependencies/realsense_ros2_camera
+[3.238s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/parent_prefix_path/realsense_ros2_camera
+[3.240s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/environment/ament_prefix_path.sh
+[3.241s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/environment/path.sh
+[3.244s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.bash
+[3.244s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.sh
+[3.245s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.zsh
+[3.275s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/packages/realsense_ros2_camera
+[3.277s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/cmake/realsense_ros2_cameraConfig.cmake
+[3.278s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/cmake/realsense_ros2_cameraConfig-version.cmake
+[3.279s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/package.xml
+[3.303s] Invoked command in '/home/yan/camps_ws/build/realsense_ros2_camera' returned '0': CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/home/yan/camps_ws/install/realsense_ros2_camera:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /home/yan/.local/bin/cmake --install /home/yan/camps_ws/build/realsense_ros2_camera

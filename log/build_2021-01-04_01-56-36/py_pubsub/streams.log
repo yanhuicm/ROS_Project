@@ -1,0 +1,37 @@
+[1.354s] Invoking command in '/home/yan/camps_ws/src/py_pubsub': PYTHONPATH=/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/yan/camps_ws/build/py_pubsub/build install --prefix /home/yan/camps_ws/install/py_pubsub --record /home/yan/camps_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.535s] running egg_info
+[2.539s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.540s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.541s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.542s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.542s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.736s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.744s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.746s] running build
+[2.746s] running build_py
+[2.748s] copying py_pubsub/subscriber_member_function_timed1.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[2.751s] running install
+[2.752s] running install_lib
+[2.759s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_timed1.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[2.763s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_timed1.py to subscriber_member_function_timed1.cpython-36.pyc
+[2.767s] running install_data
+[2.769s] running install_egg_info
+[2.779s] removing '/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)
+[2.780s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info
+[2.785s] running install_scripts
+[2.877s] Installing color script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.880s] Installing csvtojpeg script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.881s] Installing depth script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.881s] Installing infra1 script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.884s] Installing infra2 script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.884s] Installing listener script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.885s] Installing onesensor script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.886s] Installing point script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.886s] Installing subscriber_mutually script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.887s] Installing subscriber_reentrant script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.888s] Installing talker script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.889s] Installing timed script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.890s] Installing timed1 script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.890s] Installing twice script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[2.891s] writing list of installed files to '/home/yan/camps_ws/build/py_pubsub/install.log'
+[2.997s] Invoked command in '/home/yan/camps_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/yan/camps_ws/build/py_pubsub/build install --prefix /home/yan/camps_ws/install/py_pubsub --record /home/yan/camps_ws/build/py_pubsub/install.log --single-version-externally-managed

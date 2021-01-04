@@ -1,0 +1,221 @@
+[0.094s] Invoking command in '/home/yan/camps_ws/build/realsense_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/yan/camps_ws/install/realsense_camera_msgs
+[0.917s] -- The C compiler identification is GNU 7.5.0
+[1.371s] -- The CXX compiler identification is GNU 7.5.0
+[1.394s] -- Check for working C compiler: /usr/bin/cc
+[1.650s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.654s] -- Detecting C compiler ABI info
+[1.907s] -- Detecting C compiler ABI info - done
+[1.929s] -- Detecting C compile features
+[2.694s] -- Detecting C compile features - done
+[2.705s] -- Check for working CXX compiler: /usr/bin/c++
+[2.987s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.989s] -- Detecting CXX compiler ABI info
+[3.276s] -- Detecting CXX compiler ABI info - done
+[3.295s] -- Detecting CXX compile features
+[4.522s] -- Detecting CXX compile features - done
+[4.566s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.727s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.727s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.304s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[6.796s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[6.914s] -- Found FastRTPS: /opt/ros/dashing/include  
+[7.011s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[7.387s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[7.434s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[7.576s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[8.460s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[8.491s] -- Found ament_cmake_cppcheck: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[8.503s] -- Found ament_cmake_cpplint: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[8.516s] -- Found ament_cmake_uncrustify: 0.7.12 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[8.618s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[9.712s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[9.834s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[9.845s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[9.987s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[9.988s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.988s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[9.989s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[10.100s] -- Found PythonExtra: .so  
+[10.827s] -- Found ament_cmake_flake8: 0.7.12 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[10.840s] -- Found ament_cmake_pep257: 0.7.12 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[10.885s] -- Configuring done
+[11.297s] -- Generating done
+[11.310s] -- Build files have been written to: /home/yan/camps_ws/build/realsense_camera_msgs
+[11.330s] Invoked command in '/home/yan/camps_ws/build/realsense_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/yan/camps_ws/install/realsense_camera_msgs
+[11.343s] Invoking command in '/home/yan/camps_ws/build/realsense_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs -- -j4 -l4
+[11.512s] [35m[1mScanning dependencies of target realsense_camera_msgs__cpp[0m
+[11.521s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.560s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.715s] [  5%] Built target realsense_camera_msgs__cpp
+[13.792s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.806s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.138s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_generator_c[0m
+[14.218s] [ 16%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.c.o[0m
+[14.219s] [ 16%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.c.o[0m
+[14.446s] [ 18%] [32m[1mLinking C shared library librealsense_camera_msgs__rosidl_generator_c.so[0m
+[14.614s] [ 18%] Built target realsense_camera_msgs__rosidl_generator_c
+[14.663s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.973s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[16.051s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[16.064s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[16.262s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[16.347s] [ 29%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[17.052s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_introspection_c[0m
+[17.143s] [ 32%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__type_support.c.o[0m
+[17.261s] [ 35%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__type_support.c.o[0m
+[17.314s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[17.431s] [ 40%] [32m[1mLinking C shared library librealsense_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.450s] [ 43%] [32m[1mLinking CXX shared library librealsense_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[17.616s] [ 43%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_c
+[17.655s] [ 43%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_cpp
+[18.821s] [ 45%] [32m[1mLinking CXX shared library librealsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.165s] [ 45%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[19.209s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.210s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.070s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_cpp[0m
+[21.145s] [ 54%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[21.161s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[21.472s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[21.577s] [ 59%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp.o[0m
+[21.590s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp.o[0m
+[22.766s] [ 64%] [32m[1mLinking CXX shared library librealsense_camera_msgs__rosidl_typesupport_cpp.so[0m
+[23.149s] [ 64%] Built target realsense_camera_msgs__rosidl_typesupport_cpp
+[23.200s] [ 67%] [32m[1mLinking CXX shared library librealsense_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.610s] [ 67%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c
+[23.658s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.600s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_c[0m
+[25.660s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[25.661s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[25.793s] [ 78%] [32m[1mLinking CXX shared library librealsense_camera_msgs__rosidl_typesupport_c.so[0m
+[26.001s] [ 78%] Built target realsense_camera_msgs__rosidl_typesupport_c
+[26.044s] [35m[1mScanning dependencies of target realsense_camera_msgs[0m
+[26.087s] [ 78%] Built target realsense_camera_msgs
+[26.130s] [35m[1mScanning dependencies of target realsense_camera_msgs__py[0m
+[26.175s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.939s] [ 81%] Built target realsense_camera_msgs__py
+[29.982s] [35m[1mScanning dependencies of target realsense_camera_msgs__python[0m
+[30.144s] [ 83%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__python.dir/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info_s.c.o[0m
+[30.153s] [ 86%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__python.dir/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics_s.c.o[0m
+[30.559s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/realsense_camera_msgs/librealsense_camera_msgs__python.so[0m
+[30.800s] [ 89%] Built target realsense_camera_msgs__python
+[30.843s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_c__pyext[0m
+[30.844s] [35m[1mScanning dependencies of target realsense_camera_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[30.929s] [ 91%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.935s] [ 94%] [32mBuilding C object CMakeFiles/realsense_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[31.232s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[31.238s] [100%] [32m[1mLinking C shared library rosidl_generator_py/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[31.514s] [100%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[31.519s] [100%] Built target realsense_camera_msgs__rosidl_typesupport_c__pyext
+[31.567s] Invoked command in '/home/yan/camps_ws/build/realsense_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs -- -j4 -l4
+[31.905s] Invoking command in '/home/yan/camps_ws/build/realsense_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs --target install -- -j4 -l4
+[32.121s] [  2%] Built target realsense_camera_msgs__cpp
+[32.134s] [ 13%] Built target realsense_camera_msgs__rosidl_generator_c
+[32.229s] [ 24%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_cpp
+[32.247s] [ 35%] Built target realsense_camera_msgs__rosidl_typesupport_introspection_c
+[32.258s] [ 45%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[32.383s] [ 67%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c
+[32.383s] [ 67%] Built target realsense_camera_msgs__rosidl_typesupport_cpp
+[32.505s] [ 78%] Built target realsense_camera_msgs__rosidl_typesupport_c
+[32.589s] [ 78%] Built target realsense_camera_msgs
+[32.676s] [ 81%] Built target realsense_camera_msgs__py
+[32.800s] [ 89%] Built target realsense_camera_msgs__python
+[32.923s] [100%] Built target realsense_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[32.924s] [100%] Built target realsense_camera_msgs__rosidl_typesupport_c__pyext
+[33.001s] [36mInstall the project...[0m
+[33.038s] -- Install configuration: ""
+[33.039s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense_camera_msgs
+[33.040s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_c.so
+[33.041s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_c.so" to ""
+[33.042s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/library_path.sh
+[33.042s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_cpp.so
+[33.044s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[33.044s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[33.045s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[33.045s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.046s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h
+[33.047s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h
+[33.048s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[33.049s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[33.049s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[33.050s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[33.051s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__functions.c
+[33.052s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__struct.h
+[33.053s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__functions.c
+[33.053s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics.h
+[33.054s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__functions.h
+[33.054s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__functions.h
+[33.055s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.h
+[33.056s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[33.056s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__struct.h
+[33.057s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info.h
+[33.057s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.h
+[33.058s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_generator_c.so
+[33.058s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_generator_c.so" to ""
+[33.059s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[33.060s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[33.060s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.061s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[33.061s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/dds_fastrtps
+[33.062s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[33.063s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[33.063s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.064s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[33.064s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[33.065s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info.hpp
+[33.065s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__traits.hpp
+[33.066s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__struct.hpp
+[33.066s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__traits.hpp
+[33.067s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics.hpp
+[33.067s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__struct.hpp
+[33.068s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[33.068s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[33.069s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h
+[33.069s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h
+[33.070s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.c
+[33.071s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.c
+[33.072s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.072s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_c.so
+[33.073s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[33.073s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs
+[33.074s] -- Up-to-date: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg
+[33.075s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[33.075s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[33.076s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/imu_info__type_support.cpp
+[33.076s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/include/realsense_camera_msgs/msg/extrinsics__type_support.cpp
+[33.077s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[33.077s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[33.078s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/pythonpath.sh
+[33.079s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/__init__.py
+[33.231s] Compiling '/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/__init__.py'...
+[33.255s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg
+[33.255s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_imu_info_s.c
+[33.256s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_extrinsics.py
+[33.256s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/__init__.py
+[33.257s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_extrinsics_s.c
+[33.257s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/msg/_imu_info.py
+[33.258s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[33.259s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[33.260s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[33.263s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages/realsense_camera_msgs/realsense_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[33.264s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__python.so
+[33.265s] -- Set runtime path of "/home/yan/camps_ws/install/realsense_camera_msgs/lib/librealsense_camera_msgs__python.so" to ""
+[33.266s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/IMUInfo.idl
+[33.267s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/Extrinsics.idl
+[33.267s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/IMUInfo.msg
+[33.268s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/msg/Extrinsics.msg
+[33.269s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense_camera_msgs
+[33.270s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense_camera_msgs
+[33.270s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/ament_prefix_path.sh
+[33.271s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/environment/path.sh
+[33.271s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.bash
+[33.272s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.sh
+[33.272s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/local_setup.zsh
+[33.273s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/ament_index/resource_index/packages/realsense_camera_msgs
+[33.274s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[33.274s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.275s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.276s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.276s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/realsense_camera_msgsConfig.cmake
+[33.277s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/cmake/realsense_camera_msgsConfig-version.cmake
+[33.278s] -- Installing: /home/yan/camps_ws/install/realsense_camera_msgs/share/realsense_camera_msgs/package.xml
+[33.292s] Invoked command in '/home/yan/camps_ws/build/realsense_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs --target install -- -j4 -l4

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_camera_msgs.cppcheck_rosidl_typesupport_introspection_c"
+  tests="5"
+  errors="0"
+  failures="0"
+  time="0.050"
+  skipped="0"
+>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h"
+    classname="realsense_camera_msgs.cppcheck_rosidl_typesupport_introspection_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__type_support.c"
+    classname="realsense_camera_msgs.cppcheck_rosidl_typesupport_introspection_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h"
+    classname="realsense_camera_msgs.cppcheck_rosidl_typesupport_introspection_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__type_support.c"
+    classname="realsense_camera_msgs.cppcheck_rosidl_typesupport_introspection_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+    classname="realsense_camera_msgs.cppcheck_rosidl_typesupport_introspection_c"/>
+  <system-out>Checked files:
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__type_support.c
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__type_support.c
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h</system-out>
+</testsuite>

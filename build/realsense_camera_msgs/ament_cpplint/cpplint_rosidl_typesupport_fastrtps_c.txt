@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp
+
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml'

@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__type_support.c"
+  "rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__type_support.c"
+  "CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/imu_info__type_support.c.o"
+  "CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense_camera_msgs/msg/extrinsics__type_support.c.o"
+  "librealsense_camera_msgs__rosidl_typesupport_introspection_c.pdb"
+  "librealsense_camera_msgs__rosidl_typesupport_introspection_c.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

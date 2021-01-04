@@ -1,0 +1,33 @@
+[2.767s] Invoking command in '/home/yan/camps_ws/src/py_pubsub': PYTHONPATH=/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/yan/camps_ws/build/py_pubsub/build install --prefix /home/yan/camps_ws/install/py_pubsub --record /home/yan/camps_ws/build/py_pubsub/install.log --single-version-externally-managed
+[5.878s] running egg_info
+[5.885s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[5.886s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[5.893s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[5.894s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[5.895s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[6.216s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.230s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.232s] running build
+[6.234s] running build_py
+[6.238s] copying py_pubsub/subscriber_member_function_timed.py -> /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub
+[6.249s] running install
+[6.253s] running install_lib
+[6.263s] copying /home/yan/camps_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_timed.py -> /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[6.272s] byte-compiling /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_timed.py to subscriber_member_function_timed.cpython-36.pyc
+[6.282s] running install_data
+[6.293s] running install_egg_info
+[6.310s] removing '/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)
+[6.313s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info
+[6.328s] running install_scripts
+[6.491s] Installing color script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.494s] Installing depth script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.496s] Installing infra1 script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.498s] Installing infra2 script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.501s] Installing listener script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.503s] Installing onesensor script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.505s] Installing point script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.508s] Installing talker script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.510s] Installing timed script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.513s] Installing twice script to /home/yan/camps_ws/install/py_pubsub/lib/py_pubsub
+[6.519s] writing list of installed files to '/home/yan/camps_ws/build/py_pubsub/install.log'
+[6.661s] Invoked command in '/home/yan/camps_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/yan/camps_ws/build/py_pubsub/build install --prefix /home/yan/camps_ws/install/py_pubsub --record /home/yan/camps_ws/build/py_pubsub/install.log --single-version-externally-managed

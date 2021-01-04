@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_camera_msgs.pep257_rosidl_generated_py"
+  tests="4"
+  errors="0"
+  failures="0"
+  time="0.360"
+>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/__init__.py"
+    classname="realsense_camera_msgs.pep257_rosidl_generated_py"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/__init__.py"
+    classname="realsense_camera_msgs.pep257_rosidl_generated_py"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics.py"
+    classname="realsense_camera_msgs.pep257_rosidl_generated_py"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info.py"
+    classname="realsense_camera_msgs.pep257_rosidl_generated_py"/>
+  <system-out>Checked files:
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/__init__.py
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/__init__.py
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics.py
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info.py</system-out>
+</testsuite>

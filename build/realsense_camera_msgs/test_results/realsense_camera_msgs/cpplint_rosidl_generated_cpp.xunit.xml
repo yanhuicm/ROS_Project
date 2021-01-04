@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_camera_msgs.cpplint_rosidl_generated_cpp"
+  tests="6"
+  failures="0"
+  errors="0"
+  time="1.168"
+>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics.hpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_generated_cpp"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__struct.hpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_generated_cpp"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__traits.hpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_generated_cpp"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info.hpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_generated_cpp"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__struct.hpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_generated_cpp"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__traits.hpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_generated_cpp"/>
+  <system-out>Checked files:
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics.hpp
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__struct.hpp
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/extrinsics__traits.hpp
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info.hpp
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__struct.hpp
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs/msg/imu_info__traits.hpp</system-out>
+</testsuite>

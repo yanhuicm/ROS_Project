@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_camera_msgs.cpplint_rosidl_typesupport_fastrtps_c"
+  tests="4"
+  failures="0"
+  errors="0"
+  time="0.834"
+>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h"
+    classname="realsense_camera_msgs.cpplint_rosidl_typesupport_fastrtps_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_typesupport_fastrtps_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h"
+    classname="realsense_camera_msgs.cpplint_rosidl_typesupport_fastrtps_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp"
+    classname="realsense_camera_msgs.cpplint_rosidl_typesupport_fastrtps_c"/>
+  <system-out>Checked files:
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/imu_info__type_support_c.cpp
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_c.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_c/realsense_camera_msgs/msg/extrinsics__type_support_c.cpp</system-out>
+</testsuite>

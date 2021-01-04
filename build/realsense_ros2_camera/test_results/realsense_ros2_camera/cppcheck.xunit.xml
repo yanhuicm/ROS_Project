@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_ros2_camera.cppcheck"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.942"
+  skipped="0"
+>
+  <testcase
+    name="include/realsense_ros2_camera/constants.hpp"
+    classname="realsense_ros2_camera.cppcheck"/>
+  <testcase
+    name="src/realsense_camera_node.cpp"
+    classname="realsense_ros2_camera.cppcheck"/>
+  <testcase
+    name="test/test_api.cpp"
+    classname="realsense_ros2_camera.cppcheck"/>
+  <system-out>Checked files:
+* include/realsense_ros2_camera/constants.hpp
+* src/realsense_camera_node.cpp
+* test/test_api.cpp</system-out>
+</testsuite>

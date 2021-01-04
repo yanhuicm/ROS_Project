@@ -1,0 +1,5 @@
+  File "/home/yan/camps_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function_timed.py", line 36
+    self.callback_group = ReentrantCallbackGroup()
+    ^
+SyntaxError: keyword can't be an expression
+

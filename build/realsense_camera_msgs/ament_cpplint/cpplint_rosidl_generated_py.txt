@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cpplint --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_py.xunit.xml --filters=-readability/fn_size --linelength 999 --root /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs
+
+Using '--root=/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py' argument
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_c.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/_realsense_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_extrinsics_s.c
+
+Done processing /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_py/realsense_camera_msgs/msg/_imu_info_s.c
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cpplint_rosidl_generated_py.xunit.xml'

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_ros2_camera.pep257"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.120"
+>
+  <testcase
+    name="./launch/realsense2_to_laserscan.py"
+    classname="realsense_ros2_camera.pep257"/>
+  <testcase
+    name="./launch/ros2_intel_realsense.launch.py"
+    classname="realsense_ros2_camera.pep257"/>
+  <testcase
+    name="./launch/rs.launch.py"
+    classname="realsense_ros2_camera.pep257"/>
+  <system-out>Checked files:
+* ./launch/realsense2_to_laserscan.py
+* ./launch/ros2_intel_realsense.launch.py
+* ./launch/rs.launch.py</system-out>
+</testsuite>

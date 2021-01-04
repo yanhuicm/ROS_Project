@@ -1,0 +1,43 @@
+In file included from [01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_sensor.hpp:8:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/dashing/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp:34[m[K:
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_frame.hpp:932:120:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+ m_type() == RS2_STREAM_INFRARED && [01;35m[Kframe.get_profile().stream_index() == index[m[K)
+                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_context.hpp:9:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp:34[m[K:
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:[m[K In constructor ‘[01m[Krs2::processing_block::processing_block(std::shared_ptr<rs2_processing_block>)[m[K’:
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:295:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Krs2::processing_block::_block[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+         std::shared_ptr<rs2_processing_block> [01;35m[K_block[m[K;
+                                               [01;35m[K^~~~~~[m[K
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:265:63:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Krs2::options[m[K’ [[01;35m[K-Wreorder[m[K]
+             : _block(block), options((rs2_options*)block.get()[01;35m[K)[m[K
+                                                               [01;35m[K^[m[K
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:264:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+         [01;35m[Kprocessing_block[m[K(std::shared_ptr<rs2_processing_block> block)
+         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:[m[K In constructor ‘[01m[Krs2::processing_block::processing_block(std::shared_ptr<rs2_processing_block>, int)[m[K’:
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:296:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Krs2::processing_block::_queue[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+         frame_queue [01;35m[K_queue[m[K;
+                     [01;35m[K^~~~~~[m[K
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:290:83:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Krs2::options[m[K’ [[01;35m[K-Wreorder[m[K]
+         : _block(block), _queue(queue_size), options((rs2_options*)block.get()[01;35m[K)[m[K
+                                                                               [01;35m[K^[m[K
+[01m[K/opt/ros/dashing/include/librealsense2/hpp/rs_processing.hpp:289:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+         [01;35m[Kprocessing_block[m[K(std::shared_ptr<rs2_processing_block> block, int queue_size)
+         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp:35:0[m[K:
+[01m[K/opt/ros/dashing/include/librealsense2/rsutil.h:[m[K At global scope:
+[01m[K/opt/ros/dashing/include/librealsense2/rsutil.h:116:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rs2_project_color_pixel_to_depth_pixel(float*, const uint16_t*, float, float, float, const rs2_intrinsics*, const rs2_intrinsics*, const rs2_extrinsics*, const rs2_extrinsics*, const float*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void [01;35m[Krs2_project_color_pixel_to_depth_pixel[m[K(float to_pixel[2],
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/librealsense2/rsutil.h:80:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rs2_fov(const rs2_intrinsics*, float*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void [01;35m[Krs2_fov[m[K(const struct rs2_intrinsics * intrin, float to_fov[2])
+             [01;35m[K^~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.1
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/dashing/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.1

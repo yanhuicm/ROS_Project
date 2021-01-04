@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/imu_info__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/dds_fastrtps/extrinsics__type_support.cpp /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_fastrtps_cpp/realsense_camera_msgs/msg/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml'

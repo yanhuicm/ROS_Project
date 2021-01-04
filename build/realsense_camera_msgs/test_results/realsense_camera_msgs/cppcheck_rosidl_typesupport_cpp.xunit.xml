@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_camera_msgs.cppcheck_rosidl_typesupport_cpp"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.040"
+  skipped="0"
+>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp"
+    classname="realsense_camera_msgs.cppcheck_rosidl_typesupport_cpp"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp"
+    classname="realsense_camera_msgs.cppcheck_rosidl_typesupport_cpp"/>
+  <system-out>Checked files:
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/extrinsics__type_support.cpp
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_typesupport_cpp/realsense_camera_msgs/msg/imu_info__type_support.cpp</system-out>
+</testsuite>

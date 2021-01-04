@@ -1,0 +1,11 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_pep257 --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml
+
+checking ./launch/realsense2_to_laserscan.py
+checking ./launch/ros2_intel_realsense.launch.py
+checking ./launch/rs.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/pep257.xunit.xml'

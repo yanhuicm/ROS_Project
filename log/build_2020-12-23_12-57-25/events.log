@@ -1,0 +1,16 @@
+[0.000000] (-) TimerEvent: {}
+[0.001034] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002272] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099237] (-) TimerEvent: {}
+[0.200475] (-) TimerEvent: {}
+[0.301323] (-) TimerEvent: {}
+[0.402046] (-) TimerEvent: {}
+[0.503010] (-) TimerEvent: {}
+[0.603843] (-) TimerEvent: {}
+[0.704592] (-) TimerEvent: {}
+[0.805354] (-) TimerEvent: {}
+[0.906124] (-) TimerEvent: {}
+[1.006831] (-) TimerEvent: {}
+[1.107785] (-) TimerEvent: {}
+[1.188205] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.200677] (-) EventReactorShutdown: {}

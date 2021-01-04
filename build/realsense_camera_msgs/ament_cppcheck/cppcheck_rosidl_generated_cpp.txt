@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_camera_msgs':
+ - /opt/ros/dashing/bin/ament_cppcheck --xunit-file /home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_cpp.xunit.xml /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_cpp/realsense_camera_msgs
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_camera_msgs/test_results/realsense_camera_msgs/cppcheck_rosidl_generated_cpp.xunit.xml'

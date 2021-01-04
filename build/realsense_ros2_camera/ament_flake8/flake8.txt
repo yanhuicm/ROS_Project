@@ -1,0 +1,39 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_flake8 --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml
+
+Traceback (most recent call last):
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 157, in load_plugin
+    self._load()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 134, in _load
+    self._plugin = self.entry_point.load()
+  File "/home/yan/.local/lib/python3.6/site-packages/importlib_metadata/__init__.py", line 98, in load
+    return functools.reduce(getattr, attrs, module)
+AttributeError: module 'pycodestyle' has no attribute 'break_around_binary_operator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/dashing/bin/ament_flake8", line 11, in <module>
+    load_entry_point('ament-flake8==0.7.12', 'console_scripts', 'ament_flake8')()
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 75, in main
+    max_line_length=args.linelength)
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 176, in generate_flake8_report
+    style = get_flake8_style_guide(flake8_argv)
+  File "/opt/ros/dashing/lib/python3.6/site-packages/ament_flake8/main.py", line 140, in get_flake8_style_guide
+    application.find_plugins(config_finder)
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/main/application.py", line 159, in find_plugins
+    self.check_plugins.load_plugins()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 415, in load_plugins
+    plugins = list(self.manager.map(load_plugin))
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 302, in map
+    yield func(self.plugins[name], *args, **kwargs)
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 413, in load_plugin
+    return plugin.load_plugin()
+  File "/home/yan/.local/lib/python3.6/site-packages/flake8/plugins/manager.py", line 164, in load_plugin
+    raise failed_to_load
+flake8.exceptions.FailedToLoadPlugin: Flake8 failed to load plugin "pycodestyle.break_around_binary_operator" due to module 'pycodestyle' has no attribute 'break_around_binary_operator'.
+
+
+-- run_test.py: return code 1
+-- run_test.py: generate result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/flake8.xunit.xml'

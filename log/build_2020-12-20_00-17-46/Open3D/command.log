@@ -1,0 +1,2 @@
+Invoking command in '/home/yan/camps_ws/build/Open3D': /usr/bin/cmake /home/yan/camps_ws/src/Open3D -DCMAKE_INSTALL_PREFIX=/home/yan/camps_ws/install/Open3D
+Invoked command in '/home/yan/camps_ws/build/Open3D' returned '1': /usr/bin/cmake /home/yan/camps_ws/src/Open3D -DCMAKE_INSTALL_PREFIX=/home/yan/camps_ws/install/Open3D

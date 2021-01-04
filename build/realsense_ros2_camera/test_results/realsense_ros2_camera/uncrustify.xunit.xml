@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_ros2_camera.uncrustify"
+  tests="3"
+  failures="1"
+  errors="0"
+  time="1.007"
+>
+  <testcase
+    name="include/realsense_ros2_camera/constants.hpp"
+    classname="realsense_ros2_camera.uncrustify"/>
+  <testcase
+    name="src/realsense_camera_node.cpp"
+    classname="realsense_ros2_camera.uncrustify"
+  >
+      <failure message="Diff with 7 lines"><![CDATA[--- src/realsense_camera_node.cpp
++++ src/realsense_camera_node.cpp.uncrustify
+@@ -181 +181,3 @@
+-    timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&RealSenseCameraNode::publishStaticTransforms, this));
++    timer_ =
++      this->create_wall_timer(std::chrono::seconds(1),
++        std::bind(&RealSenseCameraNode::publishStaticTransforms, this));
+]]></failure>
+  </testcase>
+  <testcase
+    name="test/test_api.cpp"
+    classname="realsense_ros2_camera.uncrustify"/>
+  <system-out>Checked files:
+* include/realsense_ros2_camera/constants.hpp
+* src/realsense_camera_node.cpp
+* test/test_api.cpp</system-out>
+</testsuite>

@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera':
+ - /opt/ros/dashing/bin/ament_lint_cmake --xunit-file /home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yan/camps_ws/build/realsense_ros2_camera/test_results/realsense_ros2_camera/lint_cmake.xunit.xml'

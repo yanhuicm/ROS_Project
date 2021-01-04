@@ -1,0 +1,29 @@
+[0.148s] Invoking command in '/home/yan/camps_ws/build/realsense_ros2_camera': AMENT_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_ros2_camera -- -j4 -l4
+[0.686s] [100%] Built target realsense_ros2_camera
+[0.749s] Invoked command in '/home/yan/camps_ws/build/realsense_ros2_camera' returned '0': AMENT_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_ros2_camera -- -j4 -l4
+[0.937s] Invoking command in '/home/yan/camps_ws/build/realsense_ros2_camera': AMENT_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_ros2_camera --target install -- -j4 -l4
+[1.325s] [100%] Built target realsense_ros2_camera
+[1.469s] [36mInstall the project...[0m
+[1.533s] -- Install configuration: ""
+[1.539s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/bin/realsense_ros2_camera
+[1.548s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/lib/realsense_ros2_camera/realsense_ros2_camera
+[1.549s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include
+[1.551s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include/realsense_ros2_camera
+[1.554s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/include/realsense_ros2_camera/constants.hpp
+[1.557s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch
+[1.562s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/realsense2_to_laserscan.py
+[1.565s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/default.rviz
+[1.566s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/ros2_intel_realsense.launch.py
+[1.569s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera//launch/rs.launch.py
+[1.573s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/package_run_dependencies/realsense_ros2_camera
+[1.574s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/parent_prefix_path/realsense_ros2_camera
+[1.577s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/environment/ament_prefix_path.sh
+[1.583s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/environment/path.sh
+[1.584s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.bash
+[1.585s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.sh
+[1.587s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/local_setup.zsh
+[1.591s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/ament_index/resource_index/packages/realsense_ros2_camera
+[1.591s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/cmake/realsense_ros2_cameraConfig.cmake
+[1.592s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/cmake/realsense_ros2_cameraConfig-version.cmake
+[1.593s] -- Up-to-date: /home/yan/camps_ws/install/realsense_ros2_camera/share/realsense_ros2_camera/package.xml
+[1.626s] Invoked command in '/home/yan/camps_ws/build/realsense_ros2_camera' returned '0': AMENT_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yan/camps_ws/install/realsense_camera_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yan/camps_ws/install/realsense_camera_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_ros2_camera --target install -- -j4 -l4

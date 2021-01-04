@@ -1,0 +1,18 @@
+[0.204s] Invoking command in '/home/yan/camps_ws/build/realsense_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yan/camps_ws/install/py_pubsub:/opt/ros/dashing /usr/bin/cmake --build /home/yan/camps_ws/build/realsense_camera_msgs -- -j4 -l4
+[0.706s] [  2%] Built target realsense_camera_msgs__cpp
+[0.711s] [ 13%] Built target realsense_camera_msgs__rosidl_generator_c
+[0.716s] CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:243: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend' failed
+[0.717s] CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/build.make:229: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/depend' failed
+[0.718s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all' failed
+[0.718s] CMakeFiles/Makefile2:369: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/all' failed
+[0.719s] CMakeFiles/Makefile2:406: recipe for target 'CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all' failed
+[0.719s] Makefile:140: recipe for target 'all' failed
+[0.719s] make[2]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+[0.720s] make[2]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+[0.721s] make[1]: *** wait: No child processes.  Stop.
+[0.722s] make[1]: *** Waiting for unfinished jobs....
+[0.722s] make[1]: *** wait: No child processes.  Stop.
+[0.723s] make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.723s] make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.724s] make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.724s] make: *** [all] Interrupt

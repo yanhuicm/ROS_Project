@@ -1,0 +1,16 @@
+[console_scripts]
+color = py_pubsub.subscriber_member_function_color:main
+csvtojpeg = py_pubsub.csvtojpeg:main
+depth = py_pubsub.subscriber_member_function_depth:main
+infra1 = py_pubsub.subscriber_member_function_infra1:main
+infra2 = py_pubsub.subscriber_member_function_infra2:main
+listener = py_pubsub.subscriber_member_function:main
+onesensor = py_pubsub.subscriber_member_function_onesensor:main
+point = py_pubsub.subscriber_member_function_point:main
+subscriber_mutually = py_pubsub.subscriber_mutually:main
+subscriber_reentrant = py_pubsub.subscriber_reentrant:main
+talker = py_pubsub.publisher_member_function:main
+timed = py_pubsub.subscriber_member_function_timed:main
+timed1 = py_pubsub.subscriber_member_function_timed1:main
+twice = py_pubsub.subscriber_member_function_twice:main
+

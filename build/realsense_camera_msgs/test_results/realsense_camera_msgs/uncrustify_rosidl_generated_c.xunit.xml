@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_camera_msgs.uncrustify_rosidl_generated_c"
+  tests="11"
+  failures="0"
+  errors="0"
+  time="0.064"
+>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.c"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__struct.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__type_support.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.c"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__struct.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__type_support.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/rosidl_generator_c__visibility_control.h"
+    classname="realsense_camera_msgs.uncrustify_rosidl_generated_c"/>
+  <system-out>Checked files:
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.c
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__functions.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__struct.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/extrinsics__type_support.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.c
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__functions.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__struct.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/imu_info__type_support.h
+* /home/yan/camps_ws/build/realsense_camera_msgs/rosidl_generator_c/realsense_camera_msgs/msg/rosidl_generator_c__visibility_control.h</system-out>
+</testsuite>

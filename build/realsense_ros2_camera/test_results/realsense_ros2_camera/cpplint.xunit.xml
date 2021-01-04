@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="realsense_ros2_camera.cpplint"
+  tests="3"
+  failures="1"
+  errors="0"
+  time="2.391"
+>
+  <testcase
+    name="/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include/realsense_ros2_camera/constants.hpp"
+    classname="realsense_ros2_camera.cpplint"/>
+  <testcase
+    name="whitespace/line_length [2] (/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp:181)"
+    classname="realsense_ros2_camera.cpplint"
+  >
+      <failure message="Lines should be &lt;= 100 characters long"/>
+  </testcase>
+  <testcase
+    name="/home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/test/test_api.cpp"
+    classname="realsense_ros2_camera.cpplint"/>
+  <system-out>Checked files:
+* /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/include/realsense_ros2_camera/constants.hpp
+* /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/src/realsense_camera_node.cpp
+* /home/yan/camps_ws/src/ros2_intel_realsense/realsense_ros2_camera/test/test_api.cpp</system-out>
+</testsuite>

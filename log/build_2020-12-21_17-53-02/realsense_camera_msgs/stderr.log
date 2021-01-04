@@ -1,0 +1,9 @@
+make[2]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+make[2]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+make[1]: *** [CMakeFiles/realsense_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+make: *** [all] Interrupt
